@@ -1,0 +1,21 @@
+//FICHIER DE CONFIGURATION POUR LES VARIABLES DE LARGEUR/HAUTEUR
+
+
+// Dimension maximal
+$max-width: 1920px;
+$min-width: 480px;
+
+// MEDIA QUERIES
+$vw-thin: 320px;
+$vw-small: 640px;
+$vw-medium: 820px;
+$vw-large: 1024px;
+$vw-huge: $max-width;
+
+$vw-mobile : 480px;
+$vw-tablette : 768px;
+
+// Dimension pour formulaire
+$base-input-height: 36px;
+$base-input-border-size: 1px;
+$base-input-border-radius: 10px;
