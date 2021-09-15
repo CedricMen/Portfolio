@@ -104,17 +104,23 @@ $black:    #000;
 
 // Couleurs du projet
 
-$color-text-normal: $gray-800;
+$mauve-main: #411FA1;
+$mauve-pale: #835CED;
 
-$color-bg-page: $white;
+$jaune-main: #ECDF5C;
+$jaune-pale: #FFF47D;
 
-$color-bg-light: $gray-100;
-$color-bg-dark: $gray-800;
+$color-text-normal: $white;
 
-$color-title-light: $gray-100;
-$color-title-dark: $gray-800;
+$color-bg-page: $mauve-main;
 
-$color-link: $black;
+$color-bg-light: $jaune-main;
+$color-bg-dark: $mauve-main;
+
+$color-title-light: $white;
+$color-title-dark: $mauve-main;
+
+$color-link: $mauve-main;
 $color-link-visited: $color-link;
 $color-link-hover: lighten($color-link, 20%);
 //$color-link-hover: darken($color-link, 5%);
