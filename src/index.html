@@ -16,7 +16,25 @@
 <body>
 
 <header class="header-page">
-    <h1>Index</h1>
+    <nav>
+        <!-- nav-hamburger -->
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">-</a>
+            <div class="overlay-contenu">
+                <a href="#">Acceuil</a>
+                <a href="#">Projets</a>
+                <a href="#">À propos</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+
+        <!-- fix-navbar -->
+        <div class="navbar">
+            <a href="#nom">Cédric Ménard</a>
+            <span style="font-size:75px;cursor:pointer" onclick="openNav()">+</span>
+        </div>
+
+    </nav>
 </header>
 
 <section class="hero">

@@ -1,0 +1,78 @@
+// nav + hamburger
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: $jaune-main;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-contenu {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 15px;
+  text-decoration: none;
+  font-size: $fz-nav;
+  color: $mauve-main;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: $mauve-pale;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 35px;
+}
+
+// navbar
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 75px;
+  border-bottom: $mauve-pale 1px solid;
+}
+
+.navbar a{
+  color: $color-text-normal;
+}
+
+.navbar span{
+  color: $jaune-main;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
