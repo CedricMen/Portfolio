@@ -16,6 +16,10 @@ button{
 
 }
 
+.texte-alt-color{
+  color: $jaune-main;
+}
+
 @media screen and (max-width: $vw-tablette){
   body {
     width: 100%;
