@@ -1,44 +1,39 @@
 // nav + hamburger
 
-.overlay {
+
+
+.sidenav {
   height: 100%;
   width: 0;
   position: fixed;
   z-index: 1;
   top: 0;
-  left: 0;
+  right: 0;
   background-color: $jaune-main;
   overflow-x: hidden;
   transition: 0.5s;
+  padding-top: 60px;
+  text-align:center;
 }
-
-.overlay-contenu {
-  position: relative;
-  top: 25%;
-  width: 100%;
-  text-align: center;
-  margin-top: 30px;
-}
-
-.overlay a {
-  padding: 15px;
+.sidenav a {
+  padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: $fz-nav;
+  font-size: 25px;
   color: $mauve-main;
   display: block;
-  transition: 0.3s;
+  transition: 0.3s
 }
-
-.overlay a:hover, .overlay a:focus {
+.sidenav a:hover{
   color: $mauve-pale;
 }
-
-.overlay .closebtn {
+.sidenav .closebtn {
   position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 35px;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
 }
+
 
 // navbar
 
@@ -47,12 +42,17 @@
   justify-content: space-between;
   align-items: center;
 
+  padding: 0 45px;
+  margin: 0;
+
+
   height: 75px;
   border-bottom: $mauve-pale 1px solid;
 }
 
 .navbar a{
   color: $color-text-normal;
+  font-size: 1.375rem;
 }
 
 .navbar span{

@@ -5,6 +5,14 @@
 
 // banderolle
 
+.banderolle{
+  position: absolute;
+  width: 100%;
+  height: 280px;
+  left: 0;
+  top: 437px;
+
+}
 
 
 
@@ -18,6 +26,8 @@
 
   font-size: $fz-normal3;
 }
+
+// bouton-banderolle
 
 .hero button{
   width: 200px;
