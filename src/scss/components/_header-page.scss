@@ -1,7 +1,5 @@
 // nav + hamburger
 
-
-
 .sidenav {
   height: 100%;
   width: 0;
@@ -10,7 +8,7 @@
   top: 0;
   right: 0;
   background-color: $jaune-main;
-  overflow-x: hidden;
+  overflow: hidden;
   transition: 0.5s;
   padding-top: 60px;
   text-align:center;
@@ -18,19 +16,25 @@
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 25px;
   color: $mauve-main;
   display: block;
-  transition: 0.3s
+  transition: 0.3s;
+
+  font-family: $ff-title;
+  font-weight: $fw-bold;
+  font-size: $fz-nav;
+  line-height: 105.47%;
+
+  list-style-type: disc;
 }
 .sidenav a:hover{
   color: $mauve-pale;
 }
-.sidenav .closebtn {
+.sidenav .closeMenu {
   position: absolute;
   top: 0;
   right: 25px;
-  font-size: 36px;
+  font-size: 60px;
   margin-left: 50px;
 }
 
@@ -42,7 +46,7 @@
   justify-content: space-between;
   align-items: center;
 
-  padding: 0 45px;
+  padding: 0 35px;
   margin: 0;
 
 
