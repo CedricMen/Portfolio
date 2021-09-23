@@ -30,10 +30,22 @@
   display: flex;
   justify-content: flex-start;
 }
+.sociaux a{
+  margin: 0 100px 0 0;
+
+  color: $jaune-main;
+}
+.sociaux a:hover{
+  color: $jaune-pale;
+}
+.sociaux a:active{
+  position: relative;
+  top: 2px;
+  color: $jaune-main;
+}
+
 .fab{
   font-size: 4.688rem;
-  color: $jaune-main;
-  margin: 0 100px 0 0;
 }
 
 /* formulaire */
@@ -41,7 +53,21 @@
 .formulaire-contact{
   display: flex;
   flex-direction: column;
+  margin: 100px 0 0 0;
 }
 .formulaire-contact > label,textarea{
   margin: 50px 0 0 0;
+  border-radius: 0;
 }
+
+.formulaire-contact > input,textarea{
+  background: none;
+}
+.formulaire-contact input{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: $jaune-main 1px solid;
+  border-radius: 0;
+}
+

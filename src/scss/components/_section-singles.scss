@@ -1,0 +1,22 @@
+.titre-projets{
+  font-family: $ff-title;
+  font-weight: $fw-bold;
+  font-size: $fz-h1;
+
+  color: $color-text-normal;
+
+  text-align: center;
+  line-height: 120%;
+}
+.projet-gc{
+
+}
+
+.projets img{
+  width: 1350px;
+  height: 900px;
+}
+.projet-1{
+  display: flex;
+  justify-content: right;
+}
