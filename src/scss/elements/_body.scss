@@ -20,6 +20,19 @@ button{
   border-radius: 3px;
   border: none;
   color: $mauve-main;
+
+  &:hover{
+    background-color: $mauve-main;
+    color: $jaune-main;
+    border: 1px solid $jaune-main;
+  }
+
+  &:active{
+    background-color: $mauve-pale;
+    color: $jaune-main;
+    border: 1px solid $jaune-main;
+  }
+
 }
 
 .texte-alt-color{

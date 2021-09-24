@@ -32,3 +32,13 @@ h5{
 h6{
   font-size: $fz-h6;
 }
+.titre-page{
+font-family: $ff-title;
+font-weight: $fw-bold;
+font-size: $fz-h1;
+
+color: $color-text-normal;
+
+text-align: center;
+line-height: 120%;
+}

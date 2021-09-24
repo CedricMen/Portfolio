@@ -1,0 +1,126 @@
+/* ------------ a-propos ------------ */
+.a-propos{
+  height: 1000px;
+  display: grid;
+  grid-template-columns: 100px 700px auto 700px 100px;
+
+}
+.a-propos-sideA{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-end: 1;
+}
+.a-propos-sideB{
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-end: 1;
+  justify-self: end;
+  position: relative;
+}
+
+/* textes-a-propos */
+.texte-propos{
+  width: 835px;
+  height: 680px;
+  font-size: $fz-normal3;
+
+  ul {
+    list-style: none;
+    line-height: $lh-extra-large;
+  }
+
+  ul li::before {
+    content: "\2022";
+    color: $jaune-main;
+    font-weight: $fw-bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1.5em;
+  }
+
+}
+
+
+/* bulles-a-propos */
+.photo-cercle{
+  background-color: $jaune-main;
+  height: 565px;
+  width: 565px;
+  border-radius: 280px;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.photo-cercle img{
+  position: absolute;
+  bottom: 10%;
+  left: 15%;
+  width: 404px;
+  height: auto;
+}
+.qualite-1{
+  background: $jaune-main;
+  height: 165px;
+  width: 165px;
+  border-radius: 255px;
+  bottom: 350px;
+  right: 150px;
+  position: relative;
+  p{
+    color: $mauve-main;
+    font-size: $fz-normal3;
+    font-weight: $fw-semibold;
+    position: absolute;
+    top: 25%;
+    left: 18%;
+  }
+}
+.qualite-2{
+  background: $jaune-main;
+  height: 165px;
+  width: 165px;
+  border-radius: 255px;
+  bottom: 325px;
+  right: 90px;
+  position: relative;
+  p{
+    color: $mauve-main;
+    font-size: $fz-normal3;
+    font-weight: $fw-semibold;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+  }
+}
+.qualite-3{
+  background: $jaune-main;
+  height: 165px;
+  width: 165px;
+  border-radius: 255px;
+  bottom: 360px;
+  left: 100px;
+  position: relative;
+  p{
+    color: $mauve-main;
+    font-size: $fz-normal3;
+    font-weight: $fw-semibold;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+  }
+}
+
+#bulle-qualite{
+  opacity: 0.0;
+  transition: all 500ms ease-in-out;
+}
+
+#survole-qualite:hover + #bulle-qualite{
+  opacity: 1.0;
+}
+
+
+
+/* ------------ competences ------------ */
+
+/* ------------ interets ------------ */

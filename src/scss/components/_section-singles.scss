@@ -1,15 +1,22 @@
-.titre-projets{
-  font-family: $ff-title;
-  font-weight: $fw-bold;
-  font-size: $fz-h1;
 
-  color: $color-text-normal;
-
-  text-align: center;
-  line-height: 120%;
+.bulle{
+  height: 450px;
+  width: 450px;
+  border-radius: 255px;
+  background: $jaune-main;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.projet-gc{
-
+.projets{
+  display: grid;
+  grid-auto-columns: auto;
+  align-items: center;
+}
+.bulle button{
+  background: $mauve-main;
+  color: $jaune-main;
 }
 
 .projets img{
