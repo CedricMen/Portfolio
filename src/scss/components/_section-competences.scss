@@ -1,0 +1,79 @@
+/* ------------ compétences ------------ */
+.competences{
+  width: 100vw;
+  padding: 10px 0 0 10px;
+  background: $jaune-main;
+  color: #000;
+  h1{
+    color: $mauve-main;
+  }
+}
+
+.comp-grid{
+  display: grid;
+  grid-template-columns: 100px 1fr 50px 1fr 100px;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 0 0;
+  grid-template-areas:
+    ". . ."
+    ". . ."
+    ". . ."
+    ". . .";
+}
+.comp-1{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-end: 1;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 200px;
+  width: 800px;
+  p{
+    height: 100px;
+    width: 530px;
+  }
+}
+.img-comp-1{
+  height: 193px;
+  width: 193px;
+  background: url("../../images/html.png") no-repeat;
+}
+.comp-2{
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+
+  height: 200px;
+  width: 800px;
+  p{
+    height: 100px;
+    width: 530px;
+  }
+}
+.comp-3{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+
+  height: 200px;
+  width: 800px;
+  p{
+    height: 100px;
+    width: 530px;
+  }
+}
+.comp-4{
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 4;
+
+  height: 200px;
+  width: 800px;
+  p{
+    height: 100px;
+    width: 530px;
+  }
+}

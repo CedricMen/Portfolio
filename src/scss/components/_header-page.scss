@@ -60,6 +60,11 @@
 .navbar a{
   color: $color-text-normal;
   font-size: 1.375rem;
+  text-decoration: none;
+}
+.navbar a:hover{
+  color: $color-text-normal;
+  text-decoration: none;
 }
 
 .navbar span{

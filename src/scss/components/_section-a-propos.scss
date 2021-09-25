@@ -1,16 +1,17 @@
 /* ------------ a-propos ------------ */
 .a-propos{
-  height: 1000px;
+  height: 100vh;
   display: grid;
   grid-template-columns: 100px 700px auto 700px 100px;
-
 }
 .a-propos-sideA{
+  height: 100vh;
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-end: 1;
 }
 .a-propos-sideB{
+  height: 100vh;
   grid-column-start: 4;
   grid-column-end: 5;
   grid-row-end: 1;
@@ -46,7 +47,7 @@
   background-color: $jaune-main;
   height: 565px;
   width: 565px;
-  border-radius: 280px;
+  border-radius: 50%;
   position: relative;
   margin: 0;
   padding: 0;
@@ -62,7 +63,7 @@
   background: $jaune-main;
   height: 165px;
   width: 165px;
-  border-radius: 255px;
+  border-radius: 50%;
   bottom: 350px;
   right: 150px;
   position: relative;
@@ -79,9 +80,9 @@
   background: $jaune-main;
   height: 165px;
   width: 165px;
-  border-radius: 255px;
-  bottom: 325px;
-  right: 90px;
+  border-radius: 50%;
+  bottom: 310px;
+  right: 80px;
   position: relative;
   p{
     color: $mauve-main;
@@ -96,7 +97,7 @@
   background: $jaune-main;
   height: 165px;
   width: 165px;
-  border-radius: 255px;
+  border-radius: 50%;
   bottom: 360px;
   left: 100px;
   position: relative;
@@ -111,6 +112,7 @@
 }
 
 #bulle-qualite{
+  height: 0;
   opacity: 0.0;
   transition: all 500ms ease-in-out;
 }

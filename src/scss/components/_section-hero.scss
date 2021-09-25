@@ -1,6 +1,4 @@
 
-
-
 // demo-reel
 .video-demo-bg{
   height: 100vh;
@@ -31,7 +29,6 @@ video source{
 }
 
 
-
 // texte-banderolle
 .hero h1{
   margin: 35px 0 0 0;
@@ -45,5 +42,7 @@ video source{
   line-height: 25px;
 
   font-size: $fz-normal3;
-
+}
+.hero a{
+  margin: 0;
 }

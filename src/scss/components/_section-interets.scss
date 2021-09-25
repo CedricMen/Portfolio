@@ -1,0 +1,34 @@
+/* ------------ intérêts ------------ */
+.interets{
+  height: 75vh;
+  padding: 10px 0 0 10px;
+  background: $jaune-main;
+  color: #000;
+  h1{
+    color: $mauve-main;
+  }
+}
+
+.interet-grid{
+  display: grid;
+  grid-template-columns: 100px 865px auto 560px 100px;
+  grid-template-rows: 1fr;
+  gap: 0 0;
+}
+
+.texte-interet{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  p{
+    height: 125px;
+    width: 825px;
+    margin: 10% 0 0 0;
+  }
+}
+
+.img-interets{
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+}
