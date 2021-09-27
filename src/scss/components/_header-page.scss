@@ -20,7 +20,7 @@
   text-decoration: none;
   color: $mauve-main;
   display: block;
-  transition: 0.3s;
+  transition: 0.2s;
 
   font-family: $ff-title;
   font-weight: $fw-bold;
@@ -55,6 +55,15 @@
   width: 100vw;
   height: 75px;
   border-bottom: $mauve-pale 1px solid;
+
+  overflow: hidden;
+
+  position: fixed;
+  left: 0;
+  top: 0;
+
+  z-index: 50;
+  background: $mauve-main;
 }
 
 .navbar a{

@@ -1,18 +1,16 @@
 /* ------------ a-propos ------------ */
 .a-propos{
-  height: 100vh;
+  height: 70vh;
   width: 100vw;
   display: grid;
   grid-template-columns: 100px 700px auto 700px 100px;
 }
 .a-propos-sideA{
-  height: 100vh;
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-end: 1;
 }
 .a-propos-sideB{
-  height: 100vh;
   grid-column-start: 4;
   grid-column-end: 5;
   grid-row-end: 1;
@@ -122,8 +120,40 @@
   opacity: 1.0;
 }
 
+//scroll invitation
+
+.boiteSouris {
+  width: $fz-normal3;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
 
 
-/* ------------ competences ------------ */
+  .souris {
+    border: 3px solid $jaune-main;
+    width: 18px;
+    background-color: transparent;
+    height: 35px;
+    border-radius: 10px;
+    .roue {
+      width: 1px;
+      height: 1px;
+      border: 2px solid $jaune-main;
+      background-color: $jaune-main;
+      position: relative;
+      border-radius: 50%;
+      left: 50%;
+      margin-left: -2px;
+      top: 7px;
+      animation: scroll 1s infinite;
+    }
+  }
 
-/* ------------ interets ------------ */
+}
+
+@keyframes scroll {
+  0%   { top: 6px; opacity: 0;}
+  20% { opacity: 1; }
+  80% { opacity: 1;}
+  100% {top: 20px; opacity: 0;}
+}

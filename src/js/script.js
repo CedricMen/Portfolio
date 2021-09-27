@@ -9,13 +9,19 @@ document.addEventListener("DOMContentLoaded", function (event) {
     closeMenu.addEventListener('click', CloseMenu);
 
     var sideNav = document.getElementById("mySidenav");
+    var navBar = document.getElementById("navbar");
 
     function OpenMenu() {
         sideNav.style.width = '100%';
+        sideNav.style.zIndex = '2';
+        navBar.style.visibility = 'hidden';
     }
 
     function CloseMenu() {
         sideNav.style.width = '0%';
+        sideNav.style.zIndex = '2';
+        navBar.style.visibility = 'visible';
+        navBar.style.zIndex = '1';
     }
 
     //curseur
@@ -32,6 +38,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
             cursor.classList.remove("expand")
         },500)
     })
+
 
     //test
     console.log("Ça fonctionne!!!");
