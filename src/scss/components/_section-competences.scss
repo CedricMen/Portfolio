@@ -4,6 +4,7 @@
   padding: 10px 0 0 10px;
   background: $jaune-main;
   color: #000;
+  font-size: $fz-normal3;
   h1{
     color: $mauve-main;
   }
@@ -32,8 +33,8 @@
   height: 200px;
   width: 800px;
   p{
-    height: 100px;
-    width: 530px;
+    height: 93px;
+    width: 514px;
   }
 }
 .img-comp-1{
@@ -46,34 +47,63 @@
   grid-column-end: 5;
   grid-row-start: 2;
 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
   height: 200px;
   width: 800px;
+
+
   p{
-    height: 100px;
-    width: 530px;
+    height: 93px;
+    width: 514px;
   }
+}
+.img-comp-2{
+  height: 200px;
+  width: 200px;
+  background: url("../../images/Figma.png") no-repeat;
 }
 .comp-3{
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 3;
 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
   height: 200px;
   width: 800px;
   p{
-    height: 100px;
-    width: 530px;
+    height: 93px;
+    width: 514px;
   }
+}
+.img-comp-3{
+  height: 193px;
+  width: 193px;
+  background: url("../../images/wordpress.png") no-repeat;
 }
 .comp-4{
   grid-column-start: 4;
   grid-column-end: 5;
   grid-row-start: 4;
 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
   height: 200px;
   width: 800px;
   p{
-    height: 100px;
-    width: 530px;
+    height: 93px;
+    width: 495px;
   }
+}
+.img-comp-4{
+  height: 193px;
+  width: 193px;
+  background: url("../../images/unity.png") no-repeat;
 }
