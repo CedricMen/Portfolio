@@ -41,7 +41,15 @@ body{
 *,*:hover{
   cursor: none;
 }
-
+div{
+  cursor: none;
+}
+span{
+  cursor: none;
+}
+a{
+  cursor: none;
+}
 .loader{
   position: absolute;
   top: 0;
@@ -106,6 +114,29 @@ button{
 .texte-alt2-color{
   color: $mauve-pale;
 }
+
+// scrollbar-parsonalisé//
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: $mauve-pale;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $jaune-pale;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: $jaune-main;
+}
+
 
 @media screen and (max-width: $vw-tablette){
   body {

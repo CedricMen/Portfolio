@@ -15,6 +15,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
         sideNav.style.width = '100%';
         sideNav.style.zIndex = '2';
         navBar.style.visibility = 'hidden';
+        document.body.style.overflow = 'hidden';
+
     }
 
     function CloseMenu() {
@@ -22,6 +24,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
         sideNav.style.zIndex = '2';
         navBar.style.visibility = 'visible';
         navBar.style.zIndex = '1';
+        document.body.style.overflow = 'visible';
     }
 
     //curseur

@@ -72,7 +72,8 @@
   text-decoration: none;
 }
 .navbar a:hover{
-  color: $color-text-normal;
+  color: $jaune-main;
+  transform: scale(1.01);
   text-decoration: none;
 }
 
