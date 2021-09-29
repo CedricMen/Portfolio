@@ -1,6 +1,6 @@
 /* ------------ intérêts ------------ */
 .interets{
-  height: 100vh;
+  height: 90vh;
   padding: 10px 0 0 10px;
   background: $jaune-main;
   color: #000;
@@ -24,7 +24,7 @@
   p{
     height: 125px;
     width: 825px;
-    margin: 165px 0 0 0;
+    margin: 15% 0 0 0;
   }
 }
 
@@ -32,16 +32,34 @@
   grid-column-start: 4;
   grid-column-end: 5;
   grid-row-start: 1;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin: 15% 0 0 0;
+
 }
 .img-interets-1{
-
+  height: 199px;
+  width: 199px;
+  margin: 20px;
+  background: url("../../images/escalade.png") no-repeat;
 }
 .img-interets-2{
-
+  height: 199px;
+  width: 199px;
+  margin: 20px;
+  background: url("../../images/film.png") no-repeat;
 }
 .img-interets-3{
-
+  height: 199px;
+  width: 199px;
+  margin: 20px;
+  background: url("../../images/musique.png") no-repeat;
 }
 .img-interets-4{
-
+  height: 199px;
+  width: 199px;
+  margin: 20px;
+  background: url("../../images/jeux-videos.png") no-repeat;
 }

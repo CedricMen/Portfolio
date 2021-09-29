@@ -1,6 +1,6 @@
 /* ------------ a-propos ------------ */
 .a-propos{
-  height: 70vh;
+  height: 65vh;
   width: 100vw;
   display: grid;
   grid-template-columns: 100px 700px auto 700px 100px;
@@ -113,6 +113,9 @@
 #bulle-qualite{
   height: 0;
   opacity: 0.0;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
   transition: all 500ms ease-in-out;
 }
 
@@ -124,7 +127,7 @@
 
 .boiteSouris {
   width: $fz-normal3;
-  margin: 50px auto;
+  margin: 55px auto;
   display: flex;
   justify-content: center;
 
@@ -135,22 +138,24 @@
     background-color: transparent;
     height: 35px;
     border-radius: 10px;
+
     .roue {
       width: 1px;
       height: 1px;
+      border-radius: 50%;
       border: 2px solid $jaune-main;
       background-color: $jaune-main;
+
       position: relative;
-      border-radius: 50%;
-      left: 50%;
-      margin-left: -2px;
       top: 7px;
+      left: 50%;
+
+      margin-left: -2px;
+
       animation: scroll 1s infinite;
     }
   }
-
 }
-
 @keyframes scroll {
   0%   { top: 6px; opacity: 0;}
   20% { opacity: 1; }
