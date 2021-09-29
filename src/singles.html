@@ -18,6 +18,8 @@
     <link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
           integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- Script -->
     <script src="js/script.js"></script>
 
@@ -49,8 +51,8 @@
 </header>
 
     <h1 class="titre-page">Projets</h1>
-
 <section class="projets">
+    <div data-aos="fade-up-left">
     <div class="projet-a">
         <div class="bulle">
             <p>Touch Designer | Jeu</p>
@@ -60,15 +62,15 @@
         </div>
         <a href=""><img src="images/mockup-projet-1.png" alt="course-grille-lumière"></a>
     </div>
-
+    </div>
     <div class="projet-b">
-        <a href=""><img src="images/mockup-projet-2.png" alt="refonte-site-pourvoirie"></a>
         <div class="bulle">
             <p>WordPress | HTML/CSS/JS</p>
             <h2>Refonte d’un Site</h2>
             <p>Projet Scolaire</p>
             <button type="button">Voir le projet</button>
         </div>
+        <a href=""><img src="images/mockup-projet-2.png" alt="refonte-site-pourvoirie"></a>
     </div>
 
     <div class="projet-c">
@@ -82,13 +84,13 @@
     </div>
 
     <div class="projet-d">
-        <a href=""><img src="images/mockup-projet-4.png" alt="site-eCommerce-acceuil-boutique"></a>
         <div class="bulle">
             <p>WordPress | WooCommerce</p>
             <h2>Site eCommerce</h2>
             <p>Projet Scolaire</p>
             <button type="button">Voir le projet</button>
         </div>
+        <a href=""><img src="images/mockup-projet-4.png" alt="site-eCommerce-acceuil-boutique"></a>
     </div>
 
     <div class="projet-e">
@@ -101,5 +103,9 @@
         <a href=""><img class="citrouille" src="images/mockup-projet-5.png" alt="film-citrouille"></a>
     </div>
 </section>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>

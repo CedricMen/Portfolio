@@ -2,6 +2,7 @@
 .bulle {
   height: 450px;
   width: 450px;
+  margin: 30px;
   border-radius: 255px;
   background: $jaune-main;
   display: flex;
@@ -57,7 +58,9 @@
   grid-template-columns: 100px 1fr 100px;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   gap: 0 0;
+
 }
+
 
 .projets a img {
   width: 75%;
@@ -68,19 +71,6 @@
 
 .projets a img:hover {
   transform: scale(1.01);
-}
-.projet-a a,.projet-c a,.projet-e a{
-  display: flex;
-  justify-content: right;
-}
-.projet-a, .projet-b, .projet-c, .projet-d, .projet-e {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.projet-a {
-  margin: 0;
 }
 
 .projet-b, .projet-c, .projet-d, .projet-e {
@@ -93,6 +83,14 @@
   grid-row-start: 1;
   grid-row-end: 2;
 
+  margin: 0;
+
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.projet-a a{
   display: flex;
   justify-content: right;
 }
@@ -104,6 +102,12 @@
   grid-row-end: 3;
 
   display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+}
+.projet-b a{
+  display: flex;
   justify-content: left;
 }
 
@@ -112,6 +116,14 @@
   grid-column-end: 3;
   grid-row-start: 3;
   grid-row-end: 4;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.projet-c a{
+  display: flex;
+  justify-content: right;
 }
 
 .projet-d {
@@ -119,6 +131,15 @@
   grid-column-end: 3;
   grid-row-start: 4;
   grid-row-end: 5;
+
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+}
+.projet-d a{
+  display: flex;
+  justify-content: left;
 }
 
 .projet-e {
@@ -126,4 +147,12 @@
   grid-column-end: 3;
   grid-row-start: 5;
   grid-row-end: 6;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.projet-e a{
+  display: flex;
+  justify-content: right;
 }
