@@ -39,6 +39,14 @@ document.addEventListener("DOMContentLoaded", function (event) {
         },500)
     })
 
+    const loader = document.querySelector('.loader')
+
+    window.addEventListener('load', ()=>{
+
+        loader.classList.add('fondu-out')
+
+    })
+
 
     //test
     console.log("Ça fonctionne!!!");

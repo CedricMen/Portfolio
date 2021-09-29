@@ -1,14 +1,15 @@
 // demo-reel
 .video-demo-bg{
   height: 100vh;
-  width: 100vw;
+  width: 100%;
 }
 
 video source{
-  width: 100vh;
-  height: 100vw;
+  width: 100%;
+  height: 100%;
   margin: 0;
   padding: 0;
+  background-size: cover;
 }
 
 // banderolle
@@ -18,7 +19,7 @@ video source{
   width: 100vw;
   height: 28%;
   left: 0;
-  top: 437px;
+  top: 400px;
 
   background: rgba(131,92,237,0.45);
 

@@ -7,7 +7,10 @@ body{
   line-height: $lh-normal;
   background-color: $mauve-main;
 
+  overflow-x: hidden;
+
   width: 100%;
+  height: 100%;
 
   cursor: none;
 
@@ -28,7 +31,7 @@ body{
   animation: cursorAnim .3s infinite alternate;
 
   pointer-events: none;
-  z-index: 999;
+  z-index: 150;
 }
 .expand{
   animation: cursorAnim3 .3s backwards;
@@ -37,6 +40,38 @@ body{
 
 *,*:hover{
   cursor: none;
+}
+
+.loader{
+  position: absolute;
+  top: 0;
+  left: 1/2;
+  z-index: 200;
+
+  background: $jaune-main;
+  width: 100vw;
+  height: 100vh;
+
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  img{
+    width: 64px;
+    height: auto;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.fondu-out{
+  opacity: 0;
+  transition: opacity 0.3s ease-out;
+  display: none;
 }
 
 button{
