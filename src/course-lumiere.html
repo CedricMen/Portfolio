@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Projet - Course Lumière</title>
+
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&family=Epilogue:wght@700&display=swap"
+          rel="stylesheet">
+
+    <!-- FontAwesome -->
+    <link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+          integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet"/>
+
+    <!-- Script -->
+    <script src="js/script.js"></script>
+
+
+</head>
+<body>
+<div class="loader">
+    <img alt="chargement" src="images/loading.gif">
+</div>
+<div class="cursor"></div>
+<header class="header-page">
+    <nav>
+        <!-- nav-hamburger -->
+        <div class="sidenav" id="mySidenav">
+            <a class="closeMenu" href="javascript:void(0)">-</a>
+            <a href="index.html">&#8226; Acceuil</a>
+            <a href="singles.html">&#8226; Projets</a>
+            <a href="a-propos.html">&#8226; À propos</a>
+            <a href="contact.html">&#8226; Contact</a>
+        </div>
+
+        <!-- fix-navbar -->
+        <div class="navbar" id="navbar">
+            <a href="index.html">Cédric Ménard</a>
+            <span class="menu" style="font-size:65px;cursor:pointer">+</span>
+        </div>
+
+    </nav>
+</header>
+
+<div class="intro-projet">
+    <div class="image-projet"><img src="images/mockup-projet-1.png" alt="projet-jeux-de-course"></div>
+    <div class="texte-projet">
+        <h1>Course Lumière</h1>
+        <h2>Touch Designer <span class="texte-alt-color">|</span> Jeu</h2>
+        <p>Un petit <span class="texte-alt-color">jeu de courses expérimentales</span> créées dans <span
+                class="texte-alt-color">Touch Designer</span>, malgré la nouveauté du logiciel, j’ai
+            réalisé un petit jeu de courses qui ce contrôle avec un mobile. Ce projet était un défi, car aucun jeu du
+            genre n’a vraiment été fait auparavant dans ce logiciel. Ce projet a été réalisé dans le cadre de mon cours
+            ‘Média Interactif IV'. Pour la programmation, j’ai utilisé la <span
+                    class="texte-alt-color">programmation</span> de type ‘<span class="texte-alt-color">noeud</span>’ de
+            Touch
+            Designer et j’ai tout modélisé les élément 3D
+            avec <span class="texte-alt-color">Blender</span>.</p>
+        <p>Crédit : <span class="texte-alt-color">Cédric Ménard</span></p>
+
+        <div class="logiciels-competences-projet">
+            <div class="un-logiciel">
+                <h2>Logiciels</h2>
+                <div class="flex-logiciels">
+                    <div class="titre-logo-projet">
+                        <p>Touch Designer</p>
+                        <img src="images/touchDesigner-icon.png" alt="icon-touch-designer">
+                    </div>
+                    <div class="titre-logo-projet">
+                        <p>Blender</p>
+                        <img src="images/blender-icon.png" alt="icon-blender">
+                    </div>
+                </div>
+            </div>
+            <div class="une-competence">
+                <h2>Compétences</h2>
+                <div class="flex-competences">
+                    <div class="titre-logo-projet">
+                        <p>Python</p>
+                        <img src="images/python-icon.png" alt="">
+                    </div>
+                    <div class="titre-logo-projet">
+                        <img src="images/3D.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section data-aos="zoom-in-down"
+         data-aos-duration="1000" class="course-demo">
+    <h1>Video Demo</h1>
+    <video playsinline autoplay muted loop poster="images/demo-placeholder.jpg">
+        <source src="images/course-demo.mp4" type="video/mp4">
+    </video>
+</section>
+
+<section data-aos="zoom-in-down"
+         data-aos-duration="1000" class="projet-section">
+    <h1>Programmation en <span class="texte-alt-color">noeud</span></h1>
+    <img src="images/course-programmation.jpg" alt="course-programmation">
+</section>
+
+<section data-aos="zoom-in-down"
+         data-aos-duration="1000" class="projet-section-slider">
+    <h1>Modélisation de la voiture</h1>
+    <div class="projet-slider">
+        <div class="slide-projet" id="slide-projet-1"><img src="images/course-voiture-sans-texture.jpg" alt=""></div>
+        <div class="slide-projet" id="slide-projet-2"><img src="images/course-voiture-avec-texture.jpg" alt=""></div>
+        <div class="slide-projet" id="slide-projet-3"><img src="images/course-acceuil.jpg" alt=""></div>
+    </div>
+</section>
+
+<section data-aos="zoom-in-down"
+         data-aos-duration="1000" class="projet-section">
+    <h1>Modélisation du sol</h1>
+    <img src="images/course-bg-sol-blender.jpg" alt="course-sol-3d">
+</section>
+
+<section class="projet-section-couleur">
+
+</section>
+
+
+<footer>
+    <p>© Tous droit réservé à Cédric Ménard</p>
+</footer>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</body>
+</html>

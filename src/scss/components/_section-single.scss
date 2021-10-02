@@ -1,0 +1,113 @@
+// page pour un projet //
+
+//  section intro //
+.intro-projet{
+  display: grid;
+  grid-template-columns: 100px 1fr 1fr 100px;
+  height: 100vh;
+
+
+  .image-projet{
+    width: 740px;
+    height: auto;
+    align-self: center;
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  .texte-projet{
+    grid-column-start: 3;
+    grid-column-end: 4;
+
+    align-self: center;
+  }
+  .logiciels-competences-projet{
+    display: grid;
+    grid-template-columns: 1fr 240px 1fr;
+  }
+  .logiciels-competences-projet img{
+    width: 75px;
+    height: auto;
+  }
+  .un-logiciel{
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  .flex-logiciels{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+  }
+  .une-competence{
+    grid-column-start: 4;
+    grid-column-end: 5;
+  }
+  .flex-competences{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+  }
+}
+
+// sections projet //
+.projet-section{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  img{
+    width: 70%;
+  }
+}
+
+// sections demo projet //
+.course-demo{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+}
+.course-demo h1{
+  justify-content: center;
+}
+.course-demo video{
+  justify-content: center;
+  width: 70%;
+  height: auto;
+
+  margin: 0;
+  padding: 0;
+}
+
+
+//  section projet-section-slider //
+.projet-section-slider{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  height: 100vh;
+}
+.projet-slider{
+  width: 70%;
+  height: 70%;
+  display: flex;
+
+  overflow-scrolling: touch;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+}
+.slide-projet{
+  width: 100%;
+  flex-shrink: 0;
+  height: 70%;
+
+}
+.projet-slider > div{
+  scroll-snap-align: start;
+}
