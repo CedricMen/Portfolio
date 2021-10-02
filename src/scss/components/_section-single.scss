@@ -24,10 +24,14 @@
   .logiciels-competences-projet{
     display: grid;
     grid-template-columns: 1fr 240px 1fr;
+    h2{
+      color: $jaune-main;
+    }
   }
   .logiciels-competences-projet img{
     width: 75px;
     height: auto;
+    margin: 0 10px 0 0;
   }
   .un-logiciel{
     grid-column-start: 1;
@@ -49,6 +53,9 @@
     align-items: center;
 
   }
+  .titre-logo-projet{
+    text-align: center;
+  }
 }
 
 // sections projet //
@@ -64,23 +71,34 @@
 }
 
 // sections demo projet //
-.course-demo{
+.single-demo-video{
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-self: center;
 }
-.course-demo h1{
+.single-demo-video h1{
   justify-content: center;
 }
-.course-demo iframe{
+.single-demo-video iframe{
   justify-content: center;
   width: 70%;
   height: 70%;
 
   margin: 0;
   padding: 0;
+}
+
+// section figma //
+.figma-verum{
+  display: flex;
+  justify-content: center;
+}
+.figma-verum iframe {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 1600px;
+  height: 900px;
 }
 
 

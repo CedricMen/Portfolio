@@ -1,10 +1,143 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Projet - Course Lumière</title>
+
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&family=Epilogue:wght@700&display=swap"
+          rel="stylesheet">
+
+    <!-- FontAwesome -->
+    <link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+          integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet"/>
+
+    <!-- Script -->
+    <script src="js/script.js"></script>
+
+
 </head>
 <body>
+<div class="loader">
+    <img alt="chargement" src="images/loading.gif">
+</div>
+<div class="cursor"></div>
+<header class="header-page">
+    <nav>
+        <!-- nav-hamburger -->
+        <div class="sidenav" id="mySidenav">
+            <a class="closeMenu" href="javascript:void(0)">-</a>
+            <a href="index.html">&#8226; Acceuil</a>
+            <a href="singles.html">&#8226; Projets</a>
+            <a href="a-propos.html">&#8226; À propos</a>
+            <a href="contact.html">&#8226; Contact</a>
+        </div>
 
+        <!-- fix-navbar -->
+        <div class="navbar" id="navbar">
+            <a href="index.html">Cédric Ménard</a>
+            <span class="menu" style="font-size:65px;cursor:none">+</span>
+        </div>
+
+    </nav>
+</header>
+
+<div class="intro-projet">
+    <div class="image-projet"><img src="images/mockup-projet-2.png" alt="projet-jeux-de-course"></div>
+    <div class="texte-projet">
+        <h1>Refonte d’un site</h1>
+        <h2>WordPress <span class="texte-alt-color">|</span> HTML/CSS/JS</h2>
+        <p>La <span class="texte-alt-color">refonte</span> d’un site complet existant. La <span class="texte-alt-color">pourvoirie boismenu</span>
+            avait un site non fonctionnel, des icônes
+            invisibles. J’ai refait le site tout en respectant leur <span
+                    class="texte-alt-color">direction artistique</span> et leurs <span class="texte-alt-color">fonctionnalités</span>.
+            Ce
+            projet a été réalisé dans le cadre de mon cours ‘Production Web'. Pour la programmation j’ai utilisé
+            <span class="texte-alt-color">HTML/CSS/JS</span>, puis <span class="texte-alt-color">PHP</span> pour
+            l’intégrer dans <span class="texte-alt-color">WordPress</span>.</p>
+        <p>Crédit : <span class="texte-alt-color">Cédric Ménard</span></p>
+
+        <div class="logiciels-competences-projet">
+            <div class="un-logiciel">
+                <h2>Logiciels</h2>
+                <div class="flex-logiciels">
+                    <div class="titre-logo-projet">
+                        <img src="images/webstorm-icon.png" alt="icon-webstorm">
+                    </div>
+                    <div class="titre-logo-projet">
+                        <img src="images/phpstorm-1.png" alt="icon-phpstorm">
+                    </div>
+                    <div class="titre-logo-projet">
+                        <img src="images/icone-wordpress.png" alt="icon-wordpress">
+                    </div>
+                </div>
+            </div>
+            <div class="une-competence">
+                <h2>Compétences</h2>
+                <div class="flex-competences">
+                    <div class="titre-logo-projet">
+                        <img src="images/html5.png" alt="icon-html-5">
+                    </div>
+                    <div class="titre-logo-projet">
+                        <img src="images/css-icon-1.png" alt="icon-css">
+                    </div>
+                    <div class="titre-logo-projet">
+                        <img src="images/javascript-logo.png" alt="icon-js">
+                    </div>
+                    <div class="titre-logo-projet">
+                        <img src="images/php-icone.png" alt="icon-php">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section data-aos="zoom-in-down"
+         data-aos-duration="1000" class="single-demo-video">
+    <h1>Video Demo</h1>
+    <iframe src="https://www.youtube.com/embed/kWp3R5SsEJE?controls=0"></iframe>
+</section>
+
+<section data-aos="zoom-in-down"
+         data-aos-duration="1000" class="projet-section">
+    <h1>Programmation <span class="texte-alt-color">Front-Page (HTML/PHP)</span></h1>
+    <img src="images/programmation-front-page.jpg" alt="refonte-site-programmation">
+</section>
+
+<section data-aos="zoom-in-down"
+         data-aos-duration="1000" class="projet-section">
+    <h1>Programmation <span class="texte-alt-color">ACF</span></h1>
+    <img src="images/refonte-acf.jpg" alt="refonte-site-programmation">
+</section>
+
+<section data-aos="zoom-in-down"
+         data-aos-duration="1000" class="projet-section">
+    <h1>Programmation <span class="texte-alt-color">CPT</span></h1>
+    <img src="images/refonte-cpt.jpg" alt="refonte-site-programmation">
+</section>
+
+<section data-aos="zoom-in-down"
+         data-aos-duration="1000" class="projet-section">
+    <h1>Utilisation de <span class="texte-alt-color">GitHub</span></h1>
+    <img src="images/refonte-github.jpg" alt="refonte-site-programmation">
+</section>
+
+
+<footer>
+    <p>© Tous droit réservé à Cédric Ménard</p>
+</footer>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>

@@ -38,6 +38,7 @@
   border: none;
   color: $jaune-main;
   cursor: none;
+  text-decoration: none;
 
   &:hover {
     background-color: $jaune-main;
@@ -51,6 +52,7 @@
     color: $jaune-main;
     border: 1px solid $jaune-main;
     cursor: none;
+    text-decoration: none;
   }
 
 }
