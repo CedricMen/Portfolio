@@ -44,20 +44,20 @@ margin: 15% 0 0 0;
 
 /* formulaire */
 
-.formulaire-contact{
+.formulaire-contact form{
   display: flex;
   flex-direction: column;
   margin: 100px 0 0 0;
 }
-.formulaire-contact > label,textarea{
+.formulaire-contact form > label,textarea{
   margin: 50px 0 0 0;
   border-radius: 0;
 }
 
-.formulaire-contact > input,textarea{
+.formulaire-contact form > input,textarea{
   background: none;
 }
-.formulaire-contact input{
+.formulaire-contact form input{
   border-top: none;
   border-left: none;
   border-right: none;
