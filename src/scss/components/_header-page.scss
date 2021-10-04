@@ -81,7 +81,33 @@
   color: $jaune-main;
 }
 
+@media screen and (max-width: $vw-tablette){
 
+}
+
+@media screen and (max-width: $vw-mobile){
+  .sidenav {
+    height: 100%;
+    width: 0;
+
+    display: grid;
+    grid-template-rows: 200px 200px 200px 200px;
+  }
+  .sidenav a:nth-child(2), a:nth-child(3), a:nth-child(4), a:nth-child(5){
+    margin-left: 20px;
+  }
+  .sidenav a {
+    font-size: $fz-h1;
+    line-height: 30%;
+  }
+  .sidenav .closeMenu {
+    position: absolute;
+    top: 25px;
+    left: 70vw;
+    font-size: 60px;
+    margin-left: 50px;
+  }
+}
 
 
 

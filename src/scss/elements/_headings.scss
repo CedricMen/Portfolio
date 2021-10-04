@@ -40,3 +40,40 @@ color: $color-text-normal;
 text-align: center;
 line-height: 120%;
 }
+@media screen and (max-width: $vw-mobile){
+  body {
+    width: 100%;
+    height: 100%;
+
+    h1{
+      font-size: $fz-h2;
+    }
+
+    h2{
+      font-size: $fz-normal;
+    }
+
+    h3{
+      font-size: $fz-h3;
+    }
+
+    h4{
+      font-size: $fz-h4;
+    }
+
+    h5{
+      font-size: $fz-h5;
+    }
+
+    h6{
+      font-size: $fz-h6;
+    }
+  }
+}
+
+@media screen and (max-width: $vw-tablette) {
+  body {
+    width: 100%;
+    height: 100%;
+  }
+}

@@ -5,11 +5,25 @@ footer{
   font-size: $fz-footer;
   background: none;
 
-  position: absolute;
-  bottom: 5px;
-  left: 45%;
+
 }
 
 .footer-apropos{
   color: #000;
 }
+
+@media screen and (max-width: $vw-tablette){
+
+}
+
+@media screen and (max-width: $vw-mobile) {
+  footer{
+    display: flex;
+    justify-content: center;
+    font-size: $fz-footer;
+    background: none;
+
+    margin: 30px 0;
+  }
+}
+
