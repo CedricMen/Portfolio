@@ -63,3 +63,41 @@
   margin: 20px;
   background: url("../../images/jeux-videos.png") no-repeat;
 }
+
+@media screen and (max-width: $vw-tablette){
+
+}
+
+@media screen and (max-width: $vw-mobile) {
+  .interets h1{
+    margin: 20px 0;
+    font-size: $fz-h2;
+  }
+  .texte-interet{
+    font-size: $fz-normal;
+  }
+
+  .interet-grid{
+    display: grid;
+    grid-template-columns: 20px 1fr 20px;
+    grid-template-rows: 2fr;
+    gap: 0 0;
+  }
+  .texte-interet{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    p{
+      margin: 0;
+      width: 350px;
+      height: 350px;
+    }
+  }
+  .imgs-interets{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+}
