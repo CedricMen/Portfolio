@@ -1,7 +1,7 @@
 // demo-reel
 .video-demo-bg{
   height: 100vh;
-  width: 100%;
+  width: 100vw;
 }
 
 .video-demo-bg video source{
@@ -53,11 +53,5 @@
 
 @media screen and (max-width: $vw-mobile) {
 
-  .video-demo-bg video source{
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    background-position: center;
-  }
+
 }

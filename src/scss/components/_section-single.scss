@@ -36,16 +36,17 @@
   .un-logiciel{
     grid-column-start: 1;
     grid-column-end: 2;
+    color: $jaune-main;
   }
   .flex-logiciels{
     display: flex;
     flex-direction: row;
-    align-items: center;
 
   }
   .une-competence{
     grid-column-start: 4;
     grid-column-end: 5;
+    color: $jaune-main;
   }
   .flex-competences{
     display: flex;
@@ -55,6 +56,7 @@
   }
   .titre-logo-projet{
     text-align: center;
+    margin: 0 10px 0 0;
   }
 }
 
