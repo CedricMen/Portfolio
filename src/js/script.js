@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     const cursor = document.querySelector('.cursor');
 
     document.addEventListener('mousemove', e => {
-        cursor.setAttribute("style","top: "+(e.pageY - 10)+"px; left: "+(e.pageX - 10)+"px;")
+        cursor.setAttribute("style","top: "+(e.pageY - scrollY)+"px; left: "+(e.pageX)+"px")
         })
 
     document.addEventListener('click', () => {
@@ -42,6 +42,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
         },500)
     })
 
+
+    //page loader
     const loader = document.querySelector('.loader')
 
     window.addEventListener('load', ()=>{

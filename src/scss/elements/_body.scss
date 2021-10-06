@@ -26,13 +26,15 @@ body{
   background: $jaune-main;
   border: 2px solid $mauve-main;
   border-radius: 50%;
-  position: absolute;
+  transition: .1s linear;
   transition-duration: 50ms;
   transition-timing-function: ease-out;
   animation: cursorAnim .3s infinite alternate;
 
   pointer-events: none;
   z-index: 150;
+
+  transform: translate(-50%, -50%);position: fixed;
 }
 .expand{
   animation: cursorAnim3 .3s backwards;

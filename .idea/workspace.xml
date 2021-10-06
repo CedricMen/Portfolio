@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="488b3d94-5b6c-4888-97ec-0daeb4388ee4" name="Changes" comment="change gitignore">
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+    <list default="true" id="488b3d94-5b6c-4888-97ec-0daeb4388ee4" name="Changes" comment="idea">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/course-lumiere.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/course-lumiere.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/touch designer-mobile.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/touch-designer-mobile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_section-a-propos.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-a-propos.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_section-competences.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-competences.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_section-hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-hero.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_section-interets.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-interets.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_section-single.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-single.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/elements/_body.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/elements/_body.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/site-ecommerce.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/site-ecommerce.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verum.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/verum.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +78,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1633444752108</updated>
-      <workItem from="1633444825782" duration="379000" />
+      <workItem from="1633444825782" duration="26363000" />
     </task>
     <task id="LOCAL-00001" summary="change gitignore">
       <created>1633445175612</created>
@@ -73,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633445175612</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="idea">
+      <created>1633445432801</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1633445432801</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,6 +113,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="change gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="change gitignore" />
+    <MESSAGE value="idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="idea" />
   </component>
 </project>
