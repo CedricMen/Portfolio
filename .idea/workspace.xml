@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="488b3d94-5b6c-4888-97ec-0daeb4388ee4" name="Changes" comment="idea">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/refonte-site.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/refonte-site.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_section-contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-contact.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_section-single.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-single.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/elements/_body.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/elements/_body.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_section-competences.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-competences.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_section-hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-hero.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_section-singles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-singles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/elements/_headings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/elements/_headings.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1633444752108</updated>
-      <workItem from="1633444825782" duration="29496000" />
+      <workItem from="1633444825782" duration="31679000" />
     </task>
     <task id="LOCAL-00001" summary="change gitignore">
       <created>1633445175612</created>

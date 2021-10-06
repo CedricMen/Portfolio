@@ -153,6 +153,7 @@
   .comp-grid{
     grid-template-columns: 20px 1fr 20px;
     grid-template-rows: 1fr 20px 1fr 20px 1fr 20px 1fr 20px;
+    width: 100%;
   }
   .comp-1{
     grid-column-start: 2;
@@ -165,7 +166,7 @@
     align-items: center;
 
     height: 130px;
-    width: 400px;
+    width: 90vw;
     margin: 20px 0;
     p{
       font-size: 12px;
@@ -196,7 +197,7 @@
     align-items: center;
 
     height: 130px;
-    width: 400px;
+    width: 90vw;
     margin: 20px 0;
     p{
       font-size: 12px;
@@ -228,7 +229,7 @@
     align-items: center;
 
     height: 130px;
-    width: 400px;
+    width: 90vw;
     margin: 20px 0;
     p{
       font-size: 12px;
@@ -259,7 +260,7 @@
     align-items: center;
 
     height: 130px;
-    width: 400px;
+    width: 90vw;
     margin: 20px 0;
     p{
       font-size: 12px;

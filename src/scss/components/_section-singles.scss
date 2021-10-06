@@ -173,10 +173,16 @@
 @media screen and (max-width: $vw-mobile){
   .projets {
     display: grid;
-    grid-template-columns: 20px 1fr 20px;
+    grid-template-columns: 5px 1fr 5px;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     gap: 0 0;
 
+  }
+  .projets a img {
+    width: 100%;
+    height: auto;
+    margin: 20px;
+    transition: all .2s ease-in-out;
   }
   .bulle {
     height: 200px;

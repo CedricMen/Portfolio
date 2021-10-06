@@ -53,6 +53,8 @@
 }
 
 @media screen and (max-width: $vw-mobile) {
-
+  .video-demo-bg{
+    overflow: hidden;
+  }
 
 }
