@@ -3,20 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="488b3d94-5b6c-4888-97ec-0daeb4388ee4" name="Changes" comment="idea">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/course-lumiere.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/course-lumiere.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/touch designer-mobile.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/touch-designer-mobile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_section-a-propos.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-a-propos.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_section-competences.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-competences.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_section-hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-hero.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_section-interets.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-interets.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/refonte-site.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/refonte-site.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_section-contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-contact.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/components/_section-single.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-single.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/elements/_body.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/elements/_body.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site-ecommerce.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/site-ecommerce.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/verum.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/verum.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +15,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1z5jF6YXR1WzqTdAIHzWnSV63Fv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -78,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1633444752108</updated>
-      <workItem from="1633444825782" duration="26363000" />
+      <workItem from="1633444825782" duration="29496000" />
     </task>
     <task id="LOCAL-00001" summary="change gitignore">
       <created>1633445175612</created>
