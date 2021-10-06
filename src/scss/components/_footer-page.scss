@@ -1,5 +1,5 @@
 /* footer */
-footer{
+footer {
   display: flex;
   justify-content: center;
   font-size: $fz-footer;
@@ -8,16 +8,16 @@ footer{
 
 }
 
-.footer-apropos{
+.footer-apropos {
   color: #000;
 }
 
-@media screen and (max-width: $vw-tablette){
+@media screen and (max-width: $vw-tablette) {
 
 }
 
 @media screen and (max-width: $vw-mobile) {
-  footer{
+  footer {
     display: flex;
     justify-content: center;
     font-size: $fz-footer;

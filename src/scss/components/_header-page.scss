@@ -27,12 +27,15 @@
   font-size: $fz-nav;
   line-height: 105.47%;
 }
-.sidenav a:hover{
+
+.sidenav a:hover {
   color: $mauve-pale;
 }
-.sidenav a:nth-child(2), a:nth-child(3), a:nth-child(4), a:nth-child(5){
+
+.sidenav a:nth-child(2), a:nth-child(3), a:nth-child(4), a:nth-child(5) {
   margin-left: 190px;
 }
+
 .sidenav .closeMenu {
   position: absolute;
   top: 0;
@@ -44,7 +47,7 @@
 
 // navbar
 
-.navbar{
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -66,26 +69,27 @@
   background: $mauve-main;
 }
 
-.navbar a{
+.navbar a {
   color: $color-text-normal;
   font-size: 1.375rem;
   text-decoration: none;
 }
-.navbar a:hover{
+
+.navbar a:hover {
   color: $jaune-main;
   transform: scale(1.01);
   text-decoration: none;
 }
 
-.navbar span{
+.navbar span {
   color: $jaune-main;
 }
 
-@media screen and (max-width: $vw-tablette){
+@media screen and (max-width: $vw-tablette) {
 
 }
 
-@media screen and (max-width: $vw-mobile){
+@media screen and (max-width: $vw-mobile) {
   .sidenav {
     height: 100%;
     width: 0;
@@ -93,7 +97,7 @@
     display: grid;
     grid-template-rows: 200px 200px 200px 200px;
   }
-  .sidenav a:nth-child(2), a:nth-child(3), a:nth-child(4), a:nth-child(5){
+  .sidenav a:nth-child(2), a:nth-child(3), a:nth-child(4), a:nth-child(5) {
     margin-left: 20px;
   }
   .sidenav a {

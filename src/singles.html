@@ -8,6 +8,7 @@
 
     <link href="css/main.css" rel="stylesheet">
 
+
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com" rel="preconnect">
     <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
@@ -18,7 +19,8 @@
     <link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
           integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!--aos-->
+    <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet"/>
 
     <!-- Script -->
     <script src="js/script.js"></script>
@@ -27,15 +29,15 @@
 </head>
 <body>
 <div class="loader">
-    <img src="images/loading.gif" alt="chargement">
+    <img alt="chargement" src="images/loading.gif">
 </div>
 <div class="cursor"></div>
 <header class="header-page">
     <nav>
         <!-- nav-hamburger -->
-        <div id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closeMenu">-</a>
-            <a href="index.html">&#8226; Acceuil</a>
+        <div class="sidenav" id="mySidenav">
+            <a class="closeMenu" href="javascript:void(0)">-</a>
+            <a href="index.html">&#8226; Accueil</a>
             <a href="singles.html">&#8226; Projets</a>
             <a href="a-propos.html">&#8226; À propos</a>
             <a href="contact.html">&#8226; Contact</a>
@@ -50,66 +52,77 @@
     </nav>
 </header>
 
-    <h1 class="titre-page">Projets</h1>
+<h1 class="titre-page">Projets</h1>
 <section class="projets">
 
-    <div data-aos="fade-right"
-         data-aos-offset="400"
-         data-aos-easing="ease-in-sine" class="projet-a">
+    <div class="projet-a"
+         data-aos="fade-right"
+         data-aos-easing="ease-in-sine" data-aos-offset="400">
         <div class="bulle">
             <p>Touch Designer | Jeu</p>
             <h2>Course Lumière</h2>
             <p>Projet Scolaire</p>
-            <a href="course-lumiere.html"><button type="button">Voir le projet</button></a>
+            <a href="course-lumiere.html">
+                <button type="button">Voir le projet</button>
+            </a>
         </div>
-        <a href="course-lumiere.html"><img src="images/mockup-projet-1.png" alt="course-grille-lumière"></a>
+        <a href="course-lumiere.html"><img alt="course-grille-lumière" src="images/mockup-projet-1.png"></a>
     </div>
-    <div data-aos="fade-left"
-         data-aos-offset="400"
-         data-aos-easing="ease-in-sine"  class="projet-b">
+    <div class="projet-b"
+         data-aos="fade-left"
+         data-aos-easing="ease-in-sine" data-aos-offset="400">
         <div class="bulle">
             <p>WordPress | HTML/CSS/JS</p>
             <h2>Refonte d’un Site</h2>
             <p>Projet Scolaire</p>
-            <a href="refonte-site.html"><button type="button">Voir le projet</button></a>
+            <a href="refonte-site.html">
+                <button type="button">Voir le projet</button>
+            </a>
         </div>
-        <a href="refonte-site.html"><img src="images/mockup-projet-2.png" alt="refonte-site-pourvoirie"></a>
+        <a href="refonte-site.html"><img alt="refonte-site-pourvoirie" src="images/mockup-projet-2.png"></a>
     </div>
 
-    <div data-aos="fade-right"
-         data-aos-offset="400"
-         data-aos-easing="ease-in-sine" class="projet-c">
+    <div class="projet-c"
+         data-aos="fade-right"
+         data-aos-easing="ease-in-sine" data-aos-offset="400">
         <div class="bulle">
             <p>Figma | Expérience Intéractive</p>
             <h2>Verum</h2>
             <p>Projet Scolaire</p>
-            <a href="verum.html"><button type="button">Voir le projet</button></a>
+            <a href="verum.html">
+                <button type="button">Voir le projet</button>
+            </a>
         </div>
-        <a href="verum.html"><img src="images/mockup-projet-3.png" alt="acceuil-experience-verum"></a>
+        <a href="verum.html"><img alt="acceuil-experience-verum" src="images/mockup-projet-3.png"></a>
     </div>
 
-    <div data-aos="fade-left"
-         data-aos-offset="400"
-         data-aos-easing="ease-in-sine" class="projet-d">
+    <div class="projet-d"
+         data-aos="fade-left"
+         data-aos-easing="ease-in-sine" data-aos-offset="400">
         <div class="bulle">
             <p>WordPress | WooCommerce</p>
             <h2>Site eCommerce</h2>
             <p>Projet Scolaire</p>
-            <a href="site-ecommerce.html"><button type="button">Voir le projet</button></a>
+            <a href="site-ecommerce.html">
+                <button type="button">Voir le projet</button>
+            </a>
         </div>
-        <a href="site-ecommerce.html"><img src="images/mockup-projet-4.png" alt="site-eCommerce-acceuil-boutique"></a>
+        <a href="site-ecommerce.html"><img alt="site-eCommerce-acceuil-boutique" src="images/mockup-projet-4.png"></a>
     </div>
 
-    <div data-aos="fade-right"
-         data-aos-offset="400"
-         data-aos-easing="ease-in-sine" class="projet-e">
+    <div class="projet-e"
+         data-aos="fade-right"
+         data-aos-easing="ease-in-sine" data-aos-offset="400">
         <div class="bulle">
             <p>Blender | Projection Mapping</p>
             <h2>Grosse Citrouille</h2>
             <p>Projet Scolaire</p>
-            <a href="projection-mapping.html"><button type="button">Voir le projet</button></a>
+            <a href="projection-mapping.html">
+                <button type="button">Voir le projet</button>
+            </a>
         </div>
-        <a href="projection-mapping.html"><img class="citrouille" src="images/mockup-projet-5.png" alt="film-citrouille"></a>
+        <a href="projection-mapping.html"><img alt="film-citrouille" class="citrouille"
+                                               src="images/mockup-projet-5.png"></a>
     </div>
 </section>
 

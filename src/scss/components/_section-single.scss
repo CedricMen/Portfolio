@@ -1,13 +1,13 @@
 // page pour un projet //
 
 //  section intro //
-.intro-projet{
+.intro-projet {
   display: grid;
   grid-template-columns: 100px 1fr 1fr 100px;
   height: 100vh;
 
 
-  .image-projet{
+  .image-projet {
     width: 740px;
     height: auto;
     align-self: center;
@@ -15,76 +15,88 @@
     grid-column-start: 2;
     grid-column-end: 3;
   }
-  .texte-projet{
+
+  .texte-projet {
     grid-column-start: 3;
     grid-column-end: 4;
 
     align-self: center;
   }
-  .logiciels-competences-projet{
+
+  .logiciels-competences-projet {
     display: grid;
     grid-template-columns: 1fr 240px 1fr;
     align-self: center;
-    h2{
+
+    h2 {
       color: $jaune-main;
     }
   }
-  .logiciels-competences-projet img{
+
+  .logiciels-competences-projet img {
     width: 75px;
     height: auto;
     margin: 0 10px 0 0;
   }
-  .un-logiciel{
+
+  .un-logiciel {
     grid-column-start: 1;
     grid-column-end: 2;
     color: $jaune-main;
   }
-  .flex-logiciels{
+
+  .flex-logiciels {
     display: flex;
     flex-direction: row;
 
   }
-  .une-competence{
+
+  .une-competence {
     grid-column-start: 4;
     grid-column-end: 5;
     color: $jaune-main;
   }
-  .flex-competences{
+
+  .flex-competences {
     display: flex;
     flex-direction: row;
     align-items: center;
 
   }
-  .titre-logo-projet{
+
+  .titre-logo-projet {
     text-align: center;
     margin: 0 10px 0 0;
   }
 }
 
 // sections projet //
-.projet-section{
+.projet-section {
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-self: center;
-  img{
+
+  img {
     width: 70%;
   }
 }
 
 // sections demo projet //
-.single-demo-video{
+.single-demo-video {
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-self: center;
 }
-.single-demo-video h1{
+
+.single-demo-video h1 {
   justify-content: center;
 }
-.single-demo-video iframe{
+
+.single-demo-video iframe {
   justify-content: center;
   width: 70%;
   height: 70%;
@@ -92,19 +104,22 @@
   margin: 0;
   padding: 0;
 }
-.citrouille-demo-video{
+
+.citrouille-demo-video {
   display: flex;
   flex-direction: column;
   justify-self: center;
   align-items: center;
   margin: 0 0 5% 0;
 }
-.citrouille-demo-video video{
+
+.citrouille-demo-video video {
   justify-content: center;
   height: 50%;
   width: 50%;
 }
-.single-voir-site{
+
+.single-voir-site {
   justify-content: center;
   height: 75%;
   width: 75%;
@@ -112,11 +127,12 @@
 
 
 // section figma //
-.figma-verum{
+.figma-verum {
   display: flex;
   justify-content: center;
   height: 100vh;
 }
+
 .figma-verum iframe {
   border: 1px solid rgba(0, 0, 0, 0.1);
   width: 1600px;
@@ -125,20 +141,22 @@
 
 
 //  section projet-section-slider //
-.projet-section-slider h1{
-  display: flex;
-  justify-content: center;
-}
-.flex-slider{
+.projet-section-slider h1 {
   display: flex;
   justify-content: center;
 }
 
-#slider{
+.flex-slider {
+  display: flex;
+  justify-content: center;
+}
+
+#slider {
   overflow: hidden;
   width: 70%;
 }
-#slider figure{
+
+#slider figure {
   position: relative;
   width: 500%;
   margin: 0;
@@ -146,10 +164,12 @@
 
   animation: 20s slider infinite;
 }
-#slider figure img{
+
+#slider figure img {
   width: 20%;
   float: left;
 }
+
 @keyframes slider {
   0% {
     left: 0;
@@ -160,39 +180,39 @@
   25% {
     left: -100%;
   }
-  45%{
+  45% {
     left: -100%;
   }
-  50%{
+  50% {
     left: -200%;
   }
-  70%{
+  70% {
     left: -200%;
   }
-  75%{
+  75% {
     left: -300%;
   }
-  95%{
+  95% {
     left: -300%;
   }
-  100%{
+  100% {
     left: -400%;
   }
 
 
 }
 
-@media screen and (max-width: $vw-tablette){
+@media screen and (max-width: $vw-tablette) {
 
 }
 
-@media screen and (max-width: $vw-mobile){
-  .intro-projet{
+@media screen and (max-width: $vw-mobile) {
+  .intro-projet {
     display: grid;
     grid-template-columns: 20px 1fr 20px;
     height: 100%;
 
-    .image-projet{
+    .image-projet {
       width: 70%;
       justify-self: center;
 
@@ -201,81 +221,96 @@
       grid-column-start: 2;
       grid-column-end: 3;
     }
-    .texte-projet{
+
+    .texte-projet {
       grid-column-start: 2;
       grid-column-end: 3;
       width: 90vw;
       height: 100%;
       justify-self: center;
     }
-    .logiciels-competences-projet{
+
+    .logiciels-competences-projet {
       display: grid;
       grid-template-columns: 1fr 50px 1fr;
       grid-template-rows: 1fr 10px 1fr;
     }
-    .logiciels-competences-projet img{
+
+    .logiciels-competences-projet img {
       width: 75px;
       height: auto;
       margin: 0 10px 0 0;
     }
-    .un-logiciel{
+
+    .un-logiciel {
       grid-column-start: 1;
       grid-column-end: 2;
 
       grid-row-start: 1;
       grid-row-end: 2;
     }
-    .flex-logiciels{
+
+    .flex-logiciels {
       display: flex;
       flex-direction: row;
       align-items: center;
 
     }
-    .une-competence{
+
+    .une-competence {
       grid-column-start: 1;
       grid-column-end: 2;
 
       grid-row-start: 3;
       grid-row-end: 4;
     }
-    .flex-competences{
+
+    .flex-competences {
       display: flex;
       flex-direction: row;
       align-items: center;
 
     }
-    .titre-logo-projet{
+
+    .titre-logo-projet {
       text-align: center;
     }
   }
-  .single-demo-video{
-    margin: 50px 0 0 0;
+  .single-demo-video {
+    margin: 30px 0 0 0;
     width: 100vw;
     height: auto;
-    h1{
+
+    h1 {
       font-size: $fz-normal3;
     }
   }
-  .projet-section-slider{
-    h1{
+  .projet-section-slider {
+    margin: 30px 0 0 0;
+
+    h1 {
       font-size: $fz-normal3;
     }
   }
-  .figma-verum{
+  .figma-verum {
     width: 100vw;
     height: auto;
   }
-  .projet-section{
+  .projet-section {
+    margin: 30px 0 0 0;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-self: center;
-    img{
+
+    img {
       width: 75%;
     }
-    h1{
+
+    h1 {
       font-size: $fz-normal3;
+      text-align: center;
     }
   }
 

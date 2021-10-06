@@ -1,35 +1,37 @@
 /* ------------ intérêts ------------ */
-.interets{
-  height: 100%;
+.interets {
+  height: 90vh;
   width: 100vw;
   padding: 10px 0 0 10px;
   background: $jaune-main;
   color: #000;
   font-size: $fz-normal3;
-  h1{
+
+  h1 {
     color: $mauve-main;
   }
 }
 
-.interet-grid{
+.interet-grid {
   display: grid;
   grid-template-columns: 100px 865px auto 560px 100px;
   grid-template-rows: 1fr;
   gap: 0 0;
 }
 
-.texte-interet{
+.texte-interet {
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 1;
-  p{
+
+  p {
     height: 125px;
     width: 825px;
     margin: 15% 0 0 0;
   }
 }
 
-.imgs-interets{
+.imgs-interets {
   grid-column-start: 4;
   grid-column-end: 5;
   grid-row-start: 1;
@@ -40,93 +42,97 @@
   margin: 15% 0 0 0;
 
 }
-.img-interets-1{
+
+.img-interets-1 {
   height: 199px;
   width: 199px;
   margin: 20px;
   background: url("../../images/escalade.png") no-repeat;
 }
-.img-interets-2{
+
+.img-interets-2 {
   height: 199px;
   width: 199px;
   margin: 20px;
   background: url("../../images/film.png") no-repeat;
 }
-.img-interets-3{
+
+.img-interets-3 {
   height: 199px;
   width: 199px;
   margin: 20px;
   background: url("../../images/musique.png") no-repeat;
 }
-.img-interets-4{
+
+.img-interets-4 {
   height: 199px;
   width: 199px;
   margin: 20px;
   background: url("../../images/jeux-videos.png") no-repeat;
 }
 
-@media screen and (max-width: $vw-tablette){
+@media screen and (max-width: $vw-tablette) {
 
 }
 
 @media screen and (max-width: $vw-mobile) {
-  .interets h1{
+  .interets h1 {
     margin: 20px 0;
     font-size: $fz-h2;
   }
-  .texte-interet{
+  .texte-interet {
     font-size: $fz-normal;
   }
 
-  .interet-grid{
+  .interet-grid {
     display: grid;
-    grid-template-columns: 20px 1fr 20px;
+    grid-template-columns: 1fr;
     grid-template-rows: 2fr;
     gap: 0 0;
   }
-  .texte-interet{
-    grid-column-start: 2;
-    grid-column-end: 3;
+  .texte-interet {
+    grid-column-start: 1;
+    grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
     justify-self: center;
 
 
-    p{
+    p {
       margin: 0;
       width: 350px;
       height: 185px;
     }
   }
 
-  .imgs-interets{
-    grid-column-start: 2;
-    grid-column-end: 3;
+  .imgs-interets {
+    grid-column-start: 1;
+    grid-column-end: 2;
     grid-row-start: 2;
 
     justify-self: center;
     margin: 0;
   }
 
-  .img-interets-1{
+  .img-interets-1 {
     height: 127px;
     width: 127px;
     margin: 20px;
     background: url("../../images/escalade-mobile.png") no-repeat;
   }
-  .img-interets-2{
+  .img-interets-2 {
     height: 127px;
     width: 127px;
     margin: 20px;
     background: url("../../images/film-mobile.png") no-repeat;
   }
-  .img-interets-3{
+  .img-interets-3 {
     height: 127px;
     width: 127px;
     margin: 20px;
     background: url("../../images/musique-mobile.png") no-repeat;
   }
-  .img-interets-4{
+  .img-interets-4 {
     height: 127px;
     width: 127px;
     margin: 20px;

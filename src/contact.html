@@ -8,6 +8,7 @@
 
     <link href="css/main.css" rel="stylesheet">
 
+
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com" rel="preconnect">
     <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
@@ -18,7 +19,8 @@
     <link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
           integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!--aos-->
+    <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet"/>
 
     <!-- Script -->
     <script src="js/script.js"></script>
@@ -27,15 +29,15 @@
 </head>
 <body>
 <div class="loader">
-    <img src="images/loading.gif" alt="chargement">
+    <img alt="chargement" src="images/loading.gif">
 </div>
 <div class="cursor"></div>
 <header class="header-page">
     <nav>
         <!-- nav-hamburger -->
-        <div id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closeMenu">-</a>
-            <a href="index.html">&#8226; Acceuil</a>
+        <div class="sidenav" id="mySidenav">
+            <a class="closeMenu" href="javascript:void(0)">-</a>
+            <a href="index.html">&#8226; Accueil</a>
             <a href="singles.html">&#8226; Projets</a>
             <a href="a-propos.html">&#8226; À propos</a>
             <a href="contact.html">&#8226; Contact</a>
@@ -57,26 +59,30 @@
         <div class="info-contact">
             <h2>Contact: <br> <span class="texte-alt-color">web@cedricmenard.ca</span></h2>
             <h2>Téléphone: <br> <span class="texte-alt-color">438-399-8349</span></h2>
-            <div class="cv-btn"><a href="images/Cedric_Menard-CV.pdf" download><button type="button">Voir mon CV</button></a></div>
+            <div class="cv-btn"><a download href="images/Cedric_Menard-CV.pdf">
+                <button type="button">Voir mon CV</button>
+            </a></div>
             <div class="sociaux">
-                <a href="https://www.linkedin.com/in/c%C3%A9dric-m%C3%A9nard-40ab621a8/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://www.youtube.com/channel/UC4ELHn9lArnMBaZl6ErUjHg/" target="_blank"><i class="fab fa-youtube-square"></i></a>
+                <a href="https://www.linkedin.com/in/c%C3%A9dric-m%C3%A9nard-40ab621a8/" target="_blank"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="https://www.youtube.com/channel/UC4ELHn9lArnMBaZl6ErUjHg/" target="_blank"><i
+                        class="fab fa-youtube-square"></i></a>
                 <a href="https://github.com/CedricMen" target="_blank"><i class="fab fa-github-square"></i></a>
             </div>
         </div>
         <div class="formulaire-contact">
-<!--            <form>-->
-<!--            <label for="fnom"></label>-->
-<!--            <input type="text" id="fnom" name="nom" placeholder="Nom">-->
+            <!--            <form>-->
+            <!--            <label for="fnom"></label>-->
+            <!--            <input type="text" id="fnom" name="nom" placeholder="Nom">-->
 
-<!--            <label for="fmail"></label>-->
-<!--            <input type="text" id="fmail" name="mail" placeholder="Courriel">-->
+            <!--            <label for="fmail"></label>-->
+            <!--            <input type="text" id="fmail" name="mail" placeholder="Courriel">-->
 
-<!--            <textarea id="Sujet" name="Sujet" placeholder="Sujet" style="height:200px"></textarea>-->
+            <!--            <textarea id="Sujet" name="Sujet" placeholder="Sujet" style="height:200px"></textarea>-->
 
-<!--            <input type="submit" name="nom" value=" Envoyer ">-->
-<!--            </form>-->
-            <img src="images/courriel-logo.png" alt="">
+            <!--            <input type="submit" name="nom" value=" Envoyer ">-->
+            <!--            </form>-->
+            <a href="mailto:web@cedricmenard.ca.com"><img alt="logo-courriel" src="images/courriel-logo.png"></a>
         </div>
     </div>
 </section>

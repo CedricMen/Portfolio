@@ -1,16 +1,18 @@
 /* ------------ a-propos ------------ */
-.a-propos{
+.a-propos {
   height: 65vh;
   width: 100vw;
   display: grid;
   grid-template-columns: 100px 700px auto 700px 100px;
 }
-.a-propos-sideA{
+
+.a-propos-sideA {
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-end: 1;
 }
-.a-propos-sideB{
+
+.a-propos-sideB {
   grid-column-start: 4;
   grid-column-end: 5;
   grid-row-end: 1;
@@ -19,7 +21,7 @@
 }
 
 /* textes-a-propos */
-.texte-propos{
+.texte-propos {
   width: 835px;
   height: 680px;
   font-size: $fz-normal3;
@@ -42,7 +44,7 @@
 
 
 /* bulles-a-propos */
-.photo-cercle{
+.photo-cercle {
   background-color: $jaune-main;
   height: 565px;
   width: 565px;
@@ -51,14 +53,16 @@
   margin: 0;
   padding: 0;
 }
-.photo-cercle img{
+
+.photo-cercle img {
   position: absolute;
   bottom: 10%;
   left: 15%;
   width: 404px;
   height: auto;
 }
-.qualite-1{
+
+.qualite-1 {
   background: $jaune-main;
   height: 165px;
   width: 165px;
@@ -66,7 +70,8 @@
   bottom: 350px;
   right: 150px;
   position: relative;
-  p{
+
+  p {
     color: $mauve-main;
     font-size: $fz-normal3;
     font-weight: $fw-semibold;
@@ -75,7 +80,8 @@
     left: 18%;
   }
 }
-.qualite-2{
+
+.qualite-2 {
   background: $jaune-main;
   height: 165px;
   width: 165px;
@@ -83,7 +89,8 @@
   bottom: 310px;
   right: 80px;
   position: relative;
-  p{
+
+  p {
     color: $mauve-main;
     font-size: $fz-normal3;
     font-weight: $fw-semibold;
@@ -92,7 +99,8 @@
     left: 5%;
   }
 }
-.qualite-3{
+
+.qualite-3 {
   background: $jaune-main;
   height: 165px;
   width: 165px;
@@ -100,7 +108,8 @@
   bottom: 360px;
   left: 100px;
   position: relative;
-  p{
+
+  p {
     color: $mauve-main;
     font-size: $fz-normal3;
     font-weight: $fw-semibold;
@@ -110,7 +119,7 @@
   }
 }
 
-#bulle-qualite{
+#bulle-qualite {
   height: 0;
   opacity: 0.0;
   -webkit-transition: all 500ms ease-in-out;
@@ -119,7 +128,7 @@
   transition: all 500ms ease-in-out;
 }
 
-#survole-qualite:hover + #bulle-qualite{
+#survole-qualite:hover + #bulle-qualite {
   opacity: 1.0;
 }
 
@@ -156,134 +165,48 @@
     }
   }
 }
+
 @keyframes scroll {
-  0%   { top: 6px; opacity: 0;}
-  20% { opacity: 1; }
-  80% { opacity: 1;}
-  100% {top: 20px; opacity: 0;}
+  0% {
+    top: 6px;
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    top: 20px;
+    opacity: 0;
+  }
 }
-.a-propos-footer{
+
+.a-propos-footer {
   background: $jaune-main;
 }
 
-@media screen and (max-width: $vw-tablette){
-  .a-propos{
-    grid-template-columns: 20px 1fr 20px;
-    grid-template-rows: 1fr 1fr;
-    height: 100vh;
-  }
-  .a-propos-sideA{
-    grid-column-start: 2;
-    grid-column-end: 3;
-
-    grid-row-start: 2;
-    grid-row-end: 3;
-    justify-self: center;
-  }
-  .a-propos-sideB{
-    grid-column-start: 2;
-    grid-column-end: 3;
-
-    grid-row-start: 1;
-    grid-row-end: 2;
-
-    justify-self: center;
-
-  }
-  .texte-propos{
-    width: 90vw;
-    height: 400px;
-    font-size: $fz-normal2;
-
-    ul {
-      line-height: $lh-medium;
-    }
-  }
-  .photo-cercle{
-    background-color: $jaune-main;
-    height: 300px;
-    width: 300px;
-    border-radius: 255px;
-  }
-  .photo-cercle img{
-    width: 215px;
-    height: auto;
-  }
-  #bulle-qualite{
-    height: 0;
-    opacity: 1;
-  }
-
-  .qualite-1{
-    background: $jaune-main;
-    height: 125px;
-    width: 125px;
-    border-radius: 255px;
-    bottom: 195px;
-    right: 95px;
-    position: relative;
-    p{
-      color: $mauve-main;
-      font-size: $fz-normal;
-      position: absolute;
-      top: 30%;
-      left: 18%;
-    }
-  }
-  .qualite-2{
-    background: $jaune-main;
-    height: 125px;
-    width: 125px;
-    border-radius: 255px;
-    bottom: 195px;
-    right: 60px;
-    position: relative;
-    p{
-      color: $mauve-main;
-      font-size: $fz-normal;
-      position: absolute;
-      top: 30%;
-      left: 10%;
-    }
-  }
-  .qualite-3{
-    background: $jaune-main;
-    height: 125px;
-    width: 125px;
-    border-radius: 255px;
-    bottom: 270px;
-    left: 60px;
-    position: relative;
-    p{
-      color: $mauve-main;
-      font-size: $fz-normal;
-      position: absolute;
-      top: 30%;
-      left: 18%;
-    }
-  }
-  .a-propos-footer{
-    margin: 0;
-  }
+@media screen and (max-width: $vw-tablette) {
 
 }
 
 @media screen and (max-width: $vw-mobile) {
-  .a-propos{
-    grid-template-columns: 20px 1fr 20px;
+  .a-propos {
+    grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     height: 100vh;
   }
-  .a-propos-sideA{
-    grid-column-start: 2;
-    grid-column-end: 3;
+  .a-propos-sideA {
+    grid-column-start: 1;
+    grid-column-end: 2;
 
     grid-row-start: 2;
     grid-row-end: 3;
   }
-  .a-propos-sideB{
-    grid-column-start: 2;
-    grid-column-end: 3;
+  .a-propos-sideB {
+    grid-column-start: 1;
+    grid-column-end: 2;
 
     grid-row-start: 1;
     grid-row-end: 2;
@@ -291,39 +214,41 @@
     justify-self: center;
 
   }
-  .texte-propos{
+  .texte-propos {
     width: 400px;
     height: 400px;
     font-size: $fz-normal;
+    margin: 0 0 0 10px;
 
     ul {
       line-height: $lh-medium;
     }
   }
-  .photo-cercle{
+  .photo-cercle {
     background-color: $jaune-main;
     height: 250px;
     width: 250px;
     border-radius: 255px;
   }
-  .photo-cercle img{
+  .photo-cercle img {
     width: 170px;
     height: auto;
   }
-  #bulle-qualite{
+  #bulle-qualite {
     height: 0;
     opacity: 1;
   }
 
-  .qualite-1{
+  .qualite-1 {
     background: $jaune-main;
     height: 125px;
     width: 125px;
     border-radius: 255px;
     bottom: 195px;
-    right: 95px;
+    right: 76px;
     position: relative;
-    p{
+
+    p {
       color: $mauve-main;
       font-size: $fz-normal;
       position: absolute;
@@ -331,15 +256,16 @@
       left: 18%;
     }
   }
-  .qualite-2{
+  .qualite-2 {
     background: $jaune-main;
     height: 125px;
     width: 125px;
     border-radius: 255px;
     bottom: 195px;
-    right: 60px;
+    right: 53px;
     position: relative;
-    p{
+
+    p {
       color: $mauve-main;
       font-size: $fz-normal;
       position: absolute;
@@ -347,15 +273,16 @@
       left: 10%;
     }
   }
-  .qualite-3{
+  .qualite-3 {
     background: $jaune-main;
     height: 125px;
     width: 125px;
     border-radius: 255px;
     bottom: 270px;
-    left: 60px;
+    left: 65px;
     position: relative;
-    p{
+
+    p {
       color: $mauve-main;
       font-size: $fz-normal;
       position: absolute;
@@ -363,7 +290,7 @@
       left: 18%;
     }
   }
-  .a-propos-footer{
+  .a-propos-footer {
     margin: 0;
   }
 

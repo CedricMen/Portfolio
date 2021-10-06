@@ -1,23 +1,25 @@
 /* ------------ compétences ------------ */
-.competences{
+.competences {
   width: 100vw;
   height: 125vh;
   padding: 10px 0 0 10px;
   background: $jaune-main;
   color: #000;
   font-size: $fz-normal3;
-  h1{
+
+  h1 {
     color: $mauve-main;
   }
 }
 
-.comp-grid{
+.comp-grid {
   display: grid;
   grid-template-columns: 100px 1fr 50px 1fr 100px;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   gap: 0 0;
 }
-.comp-1{
+
+.comp-1 {
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 1;
@@ -29,25 +31,28 @@
 
   height: 200px;
   width: 800px;
-  p{
+
+  p {
     height: 93px;
     width: 514px;
     text-align: left;
   }
 }
 
-.img-comp-1{
+.img-comp-1 {
   height: 193px;
   width: 193px;
   background: url("../../images/html.png") no-repeat;
 }
-.comp-1:hover{
 
-  .img-comp-1{
+.comp-1:hover {
+
+  .img-comp-1 {
     background-image: url("../../images/css.png");
   }
 }
-.comp-2{
+
+.comp-2 {
   grid-column-start: 4;
   grid-column-end: 5;
   grid-row-start: 2;
@@ -62,24 +67,27 @@
   width: 800px;
 
 
-  p{
+  p {
     height: 93px;
     width: 514px;
     text-align: right;
   }
 }
-.img-comp-2{
+
+.img-comp-2 {
   height: 200px;
   width: 200px;
   background: url("../../images/Figma.png") no-repeat;
 }
-.comp-2:hover{
 
-  .img-comp-2{
+.comp-2:hover {
+
+  .img-comp-2 {
     background-image: url("../../images/photoshop.png");
   }
 }
-.comp-3{
+
+.comp-3 {
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 3;
@@ -91,24 +99,28 @@
 
   height: 200px;
   width: 800px;
-  p{
+
+  p {
     height: 93px;
     width: 514px;
     text-align: left;
   }
 }
-.img-comp-3{
+
+.img-comp-3 {
   height: 193px;
   width: 193px;
   background: url("../../images/wordpress.png") no-repeat;
 }
-.comp-3:hover{
 
-  .img-comp-3{
+.comp-3:hover {
+
+  .img-comp-3 {
     background-image: url("../../images/php.png");
   }
 }
-.comp-4{
+
+.comp-4 {
   grid-column-start: 4;
   grid-column-end: 5;
   grid-row-start: 4;
@@ -120,44 +132,47 @@
 
   height: 200px;
   width: 800px;
-  p{
+
+  p {
     height: 93px;
     width: 514px;
     text-align: right;
   }
 }
-.img-comp-4{
+
+.img-comp-4 {
   height: 193px;
   width: 193px;
   background: url("../../images/unity.png") no-repeat;
 }
-.comp-4:hover{
-  .img-comp-4{
+
+.comp-4:hover {
+  .img-comp-4 {
     background-image: url("../../images/touchdesigner.png");
   }
 }
 
-@media screen and (max-width: $vw-tablette){
+@media screen and (max-width: $vw-tablette) {
 
 }
 
 @media screen and (max-width: $vw-mobile) {
-  .competences{
+  .competences {
     width: 100vw;
     height: 100%;
   }
-  .competences h1{
+  .competences h1 {
     margin: 20px 0;
     font-size: $fz-h2;
   }
-  .comp-grid{
-    grid-template-columns: 20px 1fr 20px;
+  .comp-grid {
+    grid-template-columns: 1fr;
     grid-template-rows: 1fr 20px 1fr 20px 1fr 20px 1fr 20px;
     width: 100%;
   }
-  .comp-1{
-    grid-column-start: 2;
-    grid-column-end: 3;
+  .comp-1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
 
@@ -168,27 +183,28 @@
     height: 130px;
     width: 90vw;
     margin: 20px 0;
-    p{
+
+    p {
       font-size: 12px;
       height: 50px;
       width: 200px;
       text-align: left;
     }
   }
-  .img-comp-1{
+  .img-comp-1 {
     height: 127px;
     width: 127px;
     background: url("../../images/html-5-mobile.png") no-repeat;
   }
-  .comp-1:hover{
+  .comp-1:hover {
 
-    .img-comp-1{
+    .img-comp-1 {
       background-image: url("../../images/css-mobile.png");
     }
   }
-  .comp-2{
-    grid-column-start: 2;
-    grid-column-end: 3;
+  .comp-2 {
+    grid-column-start: 1;
+    grid-column-end: 2;
     grid-row-start: 3;
     grid-row-end: 4;
 
@@ -199,28 +215,29 @@
     height: 130px;
     width: 90vw;
     margin: 20px 0;
-    p{
+
+    p {
       font-size: 12px;
       height: 50px;
       width: 200px;
       text-align: right;
     }
   }
-  .img-comp-2{
+  .img-comp-2 {
     height: 127px;
     width: 127px;
     background: url("../../images/figma-mobile.png") no-repeat;
   }
-  .comp-2:hover{
+  .comp-2:hover {
 
-    .img-comp-2{
+    .img-comp-2 {
       background-image: url("../../images/photoshop-mobile.png");
     }
   }
 
-  .comp-3{
-    grid-column-start: 2;
-    grid-column-end: 3;
+  .comp-3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
     grid-row-start: 5;
     grid-row-end: 6;
 
@@ -231,27 +248,28 @@
     height: 130px;
     width: 90vw;
     margin: 20px 0;
-    p{
+
+    p {
       font-size: 12px;
       height: 50px;
       width: 200px;
       text-align: left;
     }
   }
-  .img-comp-3{
+  .img-comp-3 {
     height: 127px;
     width: 127px;
     background: url("../../images/wordpress-mobile.png") no-repeat;
   }
-  .comp-3:hover{
+  .comp-3:hover {
 
-    .img-comp-3{
+    .img-comp-3 {
       background-image: url("../../images/php-mobile.png");
     }
   }
-  .comp-4{
-    grid-column-start: 2;
-    grid-column-end: 3;
+  .comp-4 {
+    grid-column-start: 1;
+    grid-column-end: 2;
     grid-row-start: 7;
     grid-row-end: 8;
 
@@ -262,21 +280,22 @@
     height: 130px;
     width: 90vw;
     margin: 20px 0;
-    p{
+
+    p {
       font-size: 12px;
       height: 50px;
       width: 200px;
       text-align: right;
     }
   }
-  .img-comp-4{
+  .img-comp-4 {
     height: 127px;
     width: 127px;
     background: url("../../images/unity-mobile.png") no-repeat;
   }
-  .comp-4:hover{
+  .comp-4:hover {
 
-    .img-comp-4{
+    .img-comp-4 {
       background-image: url("../../images/touch-designer-mobile.png");
     }
   }

@@ -1,68 +1,70 @@
 //FICHIER DE CONFIGURATION POUR LES ÉLÉMENTS TITRE DE LA PAGE
 
 
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6 {
   font-family: $ff-title;
   line-height: $lh-thin;
   font-weight: $fw-bold;
 }
 
-h1{
+h1 {
   font-size: $fz-h1;
 }
 
-h2{
+h2 {
   font-size: $fz-h2;
 }
 
-h3{
+h3 {
   font-size: $fz-h3;
 }
 
-h4{
+h4 {
   font-size: $fz-h4;
 }
 
-h5{
+h5 {
   font-size: $fz-h5;
 }
 
-h6{
+h6 {
   font-size: $fz-h6;
 }
-.titre-page{
-font-family: $ff-title;
-font-weight: $fw-bold;
-font-size: $fz-h1;
 
-color: $color-text-normal;
+.titre-page {
+  font-family: $ff-title;
+  font-weight: $fw-bold;
+  font-size: $fz-h1;
 
-text-align: center;
-line-height: 120%;
+  color: $color-text-normal;
+
+  text-align: center;
+  line-height: 120%;
 }
-@media screen and (max-width: $vw-mobile){
+
+@media screen and (max-width: $vw-mobile) {
   body {
-    h1{
+    h1 {
       font-size: $fz-h2;
     }
 
-    h2{
+    h2 {
       font-size: $fz-normal;
     }
 
-    h3{
+    h3 {
       font-size: $fz-h3;
     }
 
-    h4{
+    h4 {
       font-size: $fz-h4;
     }
 
-    h5{
+    h5 {
       font-size: $fz-h5;
     }
 
-    h6{
+    h6 {
       font-size: $fz-h6;
     }
   }

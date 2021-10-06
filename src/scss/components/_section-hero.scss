@@ -1,11 +1,11 @@
 // demo-reel
-.video-demo-bg{
+.video-demo-bg {
   height: 100vh;
   width: 100vw;
   overflow-x: hidden;
 }
 
-.video-demo-bg video source{
+.video-demo-bg video source {
   width: 100%;
   height: 100%;
   margin: 0;
@@ -15,14 +15,14 @@
 
 // banderolle
 
-.banderolle{
+.banderolle {
   position: absolute;
   width: 100vw;
   height: 28%;
   left: 0;
   top: 400px;
 
-  background: rgba(131,92,237,0.45);
+  background: rgba(131, 92, 237, 0.45);
 
   display: flex;
   flex-direction: column;
@@ -31,10 +31,11 @@
 
 
 // texte-banderolle
-.hero h1{
+.hero h1 {
   margin: 35px 0 0 0;
 }
-.hero p{
+
+.hero p {
   width: 193px;
   height: 50px;
 
@@ -44,16 +45,17 @@
 
   font-size: $fz-normal3;
 }
-.hero a{
+
+.hero a {
   margin: 0;
 }
 
-@media screen and (max-width: $vw-tablette){
+@media screen and (max-width: $vw-tablette) {
 
 }
 
 @media screen and (max-width: $vw-mobile) {
-  .video-demo-bg{
+  .video-demo-bg {
     overflow: hidden;
   }
 
