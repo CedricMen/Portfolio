@@ -72,7 +72,43 @@
 }
 
 @media screen and (max-width: $vw-tablette) {
+  .interets h1 {
+    margin: 20px 0;
+    font-size: $fz-h2;
+  }
+  .texte-interet {
+    font-size: $fz-normal;
+  }
 
+  .interet-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr;
+    gap: 0 0;
+  }
+  .texte-interet {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    justify-self: center;
+
+
+    p {
+      margin: 0;
+      width: 500px;
+      height: 185px;
+    }
+  }
+
+  .imgs-interets {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+
+    justify-self: center;
+    margin: 0;
+  }
 }
 
 @media screen and (max-width: $vw-mobile) {

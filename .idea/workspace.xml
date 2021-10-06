@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="488b3d94-5b6c-4888-97ec-0daeb4388ee4" name="Changes" comment="">
+    <list default="true" id="488b3d94-5b6c-4888-97ec-0daeb4388ee4" name="Changes" comment="responsive fix single et index + responsive tablet 3/4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_header-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_header-page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_section-a-propos.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-a-propos.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_section-competences.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-competences.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_section-contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-contact.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_section-hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-hero.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_section-single.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-single.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_section-singles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-singles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/elements/_headings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/elements/_headings.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site-ecommerce.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/site-ecommerce.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_section-interets.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-interets.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1633444752108</updated>
       <workItem from="1633444825782" duration="36226000" />
-      <workItem from="1633528034272" duration="6168000" />
+      <workItem from="1633528034272" duration="6771000" />
     </task>
     <task id="LOCAL-00001" summary="change gitignore">
       <created>1633445175612</created>
@@ -98,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633445432801</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="responsive fix single et index + responsive tablet 3/4">
+      <created>1633534365065</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1633534365065</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +118,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="change gitignore" />
     <MESSAGE value="idea" />
-    <option name="LAST_COMMIT_MESSAGE" value="idea" />
+    <MESSAGE value="responsive fix single et index + responsive tablet 3/4" />
+    <option name="LAST_COMMIT_MESSAGE" value="responsive fix single et index + responsive tablet 3/4" />
   </component>
 </project>
