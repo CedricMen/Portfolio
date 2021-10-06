@@ -1,6 +1,6 @@
 /* ------------ intérêts ------------ */
 .interets {
-  height: 90vh;
+  height: 100vh;
   width: 100vw;
   padding: 10px 0 0 10px;
   background: $jaune-main;
@@ -108,6 +108,30 @@
 
     justify-self: center;
     margin: 0;
+  }
+  .img-interets-1 {
+    height: 127px;
+    width: 127px;
+    margin: 20px;
+    background: url("../../images/escalade-mobile.png") no-repeat;
+  }
+  .img-interets-2 {
+    height: 127px;
+    width: 127px;
+    margin: 20px;
+    background: url("../../images/film-mobile.png") no-repeat;
+  }
+  .img-interets-3 {
+    height: 127px;
+    width: 127px;
+    margin: 20px;
+    background: url("../../images/musique-mobile.png") no-repeat;
+  }
+  .img-interets-4 {
+    height: 127px;
+    width: 127px;
+    margin: 20px;
+    background: url("../../images/jeux-videos-mobile.png") no-repeat;
   }
 }
 
