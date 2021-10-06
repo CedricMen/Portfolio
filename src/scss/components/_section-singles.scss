@@ -173,7 +173,35 @@
 
 
 @media screen and (max-width: $vw-tablette) {
+  .projets {
+    display: grid;
+    grid-template-columns: 5px 1fr 5px;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0 0;
 
+  }
+  .projets a img {
+    width: 100%;
+    height: auto;
+    margin: 20px;
+    transition: all .2s ease-in-out;
+  }
+  .bulle {
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    border-radius: 255px;
+
+    p {
+      font-size: 12px;
+    }
+  }
+  .bulle a button {
+    margin: 0 100px;
+    width: 100px;
+    height: 27px;
+    font-size: 13px;
+  }
 
 }
 

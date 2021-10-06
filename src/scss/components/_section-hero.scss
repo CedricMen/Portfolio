@@ -51,12 +51,23 @@
 }
 
 @media screen and (max-width: $vw-tablette) {
-
+  .video-demo-bg video{
+    left: 50%;
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
 
 @media screen and (max-width: $vw-mobile) {
-  .video-demo-bg {
-    overflow: hidden;
+  .video-demo-bg video{
+    left: 50%;
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
   }
-
 }

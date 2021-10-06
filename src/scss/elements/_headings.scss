@@ -71,5 +71,13 @@ h6 {
 }
 
 @media screen and (max-width: $vw-tablette) {
+  body {
+    h1 {
+      font-size: $fz-h2;
+    }
 
+    h2 {
+      font-size: $fz-normal2;
+    }
+  }
 }

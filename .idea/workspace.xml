@@ -1,35 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="488b3d94-5b6c-4888-97ec-0daeb4388ee4" name="Changes" comment="idea">
+    <list default="true" id="488b3d94-5b6c-4888-97ec-0daeb4388ee4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a-propos.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/a-propos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/course-lumiere.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/course-lumiere.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projection-mapping.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/projection-mapping.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/refonte-site.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/refonte-site.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_footer-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_footer-page.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/components/_header-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_header-page.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/components/_section-a-propos.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-a-propos.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/components/_section-competences.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-competences.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/components/_section-contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-contact.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/components/_section-hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-hero.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_section-interets.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-interets.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_section-page.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/components/_section-single.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-single.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/components/_section-singles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-singles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/elements/_body.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/elements/_body.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/elements/_headings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/elements/_headings.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/elements/_hr.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/elements/_hr.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/elements/_images.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/elements/_images.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/elements/_links.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/elements/_links.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/elements/_wrapper.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/elements/_wrapper.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/singles.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/singles.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/site-ecommerce.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/site-ecommerce.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/verum.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/verum.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +81,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1633444752108</updated>
-      <workItem from="1633444825782" duration="35988000" />
+      <workItem from="1633444825782" duration="36226000" />
+      <workItem from="1633528034272" duration="6168000" />
     </task>
     <task id="LOCAL-00001" summary="change gitignore">
       <created>1633445175612</created>
@@ -131,6 +114,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="change gitignore" />

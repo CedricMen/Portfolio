@@ -188,6 +188,109 @@
 }
 
 @media screen and (max-width: $vw-tablette) {
+  .a-propos {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 100vh;
+  }
+  .a-propos-sideA {
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    display: flex;
+    justify-content: center;
+  }
+  .a-propos-sideB {
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    justify-self: center;
+
+  }
+  .texte-propos {
+    width: 600px;
+    height: 600px;
+    font-size: $fz-normal3;
+
+    ul {
+      line-height: $lh-medium;
+    }
+  }
+  .photo-cercle {
+    background-color: $jaune-main;
+    height: 250px;
+    width: 250px;
+    border-radius: 255px;
+  }
+  .photo-cercle img {
+    width: 170px;
+    height: auto;
+  }
+  #bulle-qualite {
+    height: 0;
+    opacity: 1;
+  }
+
+  .qualite-1 {
+    background: $jaune-main;
+    height: 125px;
+    width: 125px;
+    border-radius: 255px;
+    bottom: 195px;
+    right: 76px;
+    position: relative;
+
+    p {
+      color: $mauve-main;
+      font-size: $fz-normal;
+      position: absolute;
+      top: 30%;
+      left: 18%;
+    }
+  }
+  .qualite-2 {
+    background: $jaune-main;
+    height: 125px;
+    width: 125px;
+    border-radius: 255px;
+    bottom: 195px;
+    right: 53px;
+    position: relative;
+
+    p {
+      color: $mauve-main;
+      font-size: $fz-normal;
+      position: absolute;
+      top: 30%;
+      left: 10%;
+    }
+  }
+  .qualite-3 {
+    background: $jaune-main;
+    height: 125px;
+    width: 125px;
+    border-radius: 255px;
+    bottom: 270px;
+    left: 65px;
+    position: relative;
+
+    p {
+      color: $mauve-main;
+      font-size: $fz-normal;
+      position: absolute;
+      top: 30%;
+      left: 18%;
+    }
+  }
+  .a-propos-footer {
+    margin: 0;
+  }
 
 }
 
@@ -218,7 +321,6 @@
     width: 400px;
     height: 400px;
     font-size: $fz-normal;
-    margin: 0 0 0 10px;
 
     ul {
       line-height: $lh-medium;

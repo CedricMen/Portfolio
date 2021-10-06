@@ -119,10 +119,41 @@
   width: 50%;
 }
 
-.single-voir-site {
+.single-voir-site{
+  width: 100vw;
+  height: 100%;
+  display: flex;
   justify-content: center;
-  height: 75%;
-  width: 75%;
+  margin: 5% 0;
+}
+.single-voir-site a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+.image-ecommerce{
+  background-image: url("../../images/techtim-voirlesite.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 70vw;
+  height: 70vh;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h1{
+    color: $jaune-main;
+  }
+}
+
+.image-ecommerce:hover{
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+  h1{
+    color: $jaune-pale;
+  }
 }
 
 
@@ -203,7 +234,74 @@
 }
 
 @media screen and (max-width: $vw-tablette) {
+  .intro-projet {
+    display: grid;
+    grid-template-columns: 20px 1fr 20px;
+    height: 100%;
 
+    .image-projet {
+      width: 70%;
+      justify-self: center;
+
+      margin: 20px 0;
+
+      grid-column-start: 2;
+      grid-column-end: 3;
+    }
+
+    .texte-projet {
+      grid-column-start: 2;
+      grid-column-end: 3;
+      width: 90vw;
+      height: 100%;
+      justify-self: center;
+    }
+
+    .logiciels-competences-projet {
+      display: grid;
+      grid-template-columns: 1fr 50px 1fr;
+      grid-template-rows: 1fr 10px 1fr;
+    }
+
+    .logiciels-competences-projet img {
+      width: 75px;
+      height: auto;
+      margin: 0 10px 0 0;
+    }
+
+    .un-logiciel {
+      grid-column-start: 1;
+      grid-column-end: 2;
+
+      grid-row-start: 1;
+      grid-row-end: 2;
+    }
+
+    .flex-logiciels {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+    }
+
+    .une-competence {
+      grid-column-start: 1;
+      grid-column-end: 2;
+
+      grid-row-start: 3;
+      grid-row-end: 4;
+    }
+
+    .flex-competences {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+    }
+    .titre-logo-projet {
+      text-align: center;
+    }
+  }
 }
 
 @media screen and (max-width: $vw-mobile) {
@@ -296,6 +394,11 @@
     width: 100vw;
     height: auto;
   }
+  .image-ecommerce{
+    height: 20vh;
+  }
+
+
   .projet-section {
     margin: 30px 0 0 0;
     height: 100%;
