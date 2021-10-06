@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="488b3d94-5b6c-4888-97ec-0daeb4388ee4" name="Changes" comment="responsive fix single et index + responsive tablet 3/4">
+    <list default="true" id="488b3d94-5b6c-4888-97ec-0daeb4388ee4" name="Changes" comment="Fix padding a-propos mobile">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_section-interets.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-interets.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a-propos.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/a-propos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_section-single.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-single.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +77,8 @@
       <updated>1633444752108</updated>
       <workItem from="1633444825782" duration="36226000" />
       <workItem from="1633528034272" duration="6771000" />
-      <workItem from="1633535956292" duration="866000" />
+      <workItem from="1633535956292" duration="1129000" />
+      <workItem from="1633537214194" duration="313000" />
     </task>
     <task id="LOCAL-00001" summary="change gitignore">
       <created>1633445175612</created>
@@ -99,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633534365065</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fix padding a-propos mobile">
+      <created>1633537085852</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1633537085852</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +130,7 @@
     <MESSAGE value="change gitignore" />
     <MESSAGE value="idea" />
     <MESSAGE value="responsive fix single et index + responsive tablet 3/4" />
-    <option name="LAST_COMMIT_MESSAGE" value="responsive fix single et index + responsive tablet 3/4" />
+    <MESSAGE value="Fix padding a-propos mobile" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix padding a-propos mobile" />
   </component>
 </project>
