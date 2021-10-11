@@ -31,7 +31,7 @@
 }
 
 .sociaux a {
-  margin: 0 100px 0 0;
+  margin: 0 50px 0 0;
 
   color: $jaune-main;
 }
@@ -48,6 +48,15 @@
 
 .fab {
   font-size: 4.688rem;
+}
+a .ico-sketchfab{
+  background-image: url(../../images/sketchfab-logo.svg), none;
+  width: 75px;
+  height: 75px;
+}
+
+a .ico-sketchfab:hover{
+  background-image: url(../../images/sketchfab-logo-hover.svg), none;
 }
 
 /* formulaire */
@@ -92,7 +101,7 @@
     justify-content: start;
   }
   .sociaux a {
-    margin: 0 50px;
+    margin: 0 35px;
   }
   .formulaire-contact a img {
     display: flex;

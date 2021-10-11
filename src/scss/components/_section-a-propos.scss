@@ -214,7 +214,8 @@
 
   }
   .texte-propos {
-    width: 600px;
+    width: 100vw;
+    margin: 0 10px;
     height: 600px;
     font-size: $fz-normal3;
 
@@ -318,7 +319,6 @@
 
   }
   .texte-propos {
-    width: 400px;
     height: 400px;
     font-size: $fz-normal;
 
