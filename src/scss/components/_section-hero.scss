@@ -49,6 +49,12 @@
 .hero a {
   margin: 0;
 }
+.index-body{
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  position: fixed;
+}
 
 @media screen and (max-width: $vw-tablette) {
   .video-demo-bg video{
