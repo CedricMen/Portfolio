@@ -335,6 +335,7 @@
 
     grid-row-start: 2;
     grid-row-end: 3;
+    justify-self: center;
   }
   .a-propos-sideB {
     grid-column-start: 1;
@@ -347,8 +348,9 @@
 
   }
   .texte-propos {
-    width: 400px;
+    width: 100vw;
     height: 400px;
+    padding: 0 10px;
     font-size: $fz-normal;
 
     ul {
@@ -375,8 +377,8 @@
     height: 125px;
     width: 125px;
     border-radius: 255px;
-    bottom: 195px;
-    right: 76px;
+    bottom: 65px;
+    left: 185px;
     position: relative;
 
     p {
@@ -384,7 +386,7 @@
       font-size: $fz-normal;
       position: absolute;
       top: 30%;
-      left: 18%;
+      left: 20%;
     }
   }
   .qualite-2 {
