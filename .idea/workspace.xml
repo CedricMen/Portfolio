@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="488b3d94-5b6c-4888-97ec-0daeb4388ee4" name="Changes" comment="responsive 1440px">
+    <list default="true" id="488b3d94-5b6c-4888-97ec-0daeb4388ee4" name="Changes" comment="fix hero banderolle">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/components/_section-hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-hero.scss" afterDir="false" />
     </list>
@@ -78,7 +78,7 @@
       <workItem from="1633535956292" duration="1129000" />
       <workItem from="1633537214194" duration="313000" />
       <workItem from="1633965456364" duration="5885000" />
-      <workItem from="1634061526730" duration="9815000" />
+      <workItem from="1634061526730" duration="10262000" />
     </task>
     <task id="LOCAL-00001" summary="change gitignore">
       <created>1633445175612</created>
@@ -143,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634073538021</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fix hero banderolle">
+      <created>1634074887430</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1634074887430</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +178,7 @@
     <MESSAGE value="responsive 375" />
     <MESSAGE value="responsive 375 fix sidenav + taille font" />
     <MESSAGE value="responsive 1440px" />
-    <option name="LAST_COMMIT_MESSAGE" value="responsive 1440px" />
+    <MESSAGE value="fix hero banderolle" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix hero banderolle" />
   </component>
 </project>
