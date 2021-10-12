@@ -216,6 +216,35 @@
   }
 
 }
+@media screen and (max-width: $vw-tablette2) {
+  .texte-propos {
+    width: 500px;
+    height: 500px;
+    font-size: $fz-normal;
+  }
+  .a-propos {
+    height: 65vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 50px 600px auto 600px 50px;
+  }
+
+  .a-propos-sideA {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-end: 1;
+    justify-self: center;
+    align-self: center;
+  }
+
+  .a-propos-sideB {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-end: 1;
+    justify-self: end;
+    position: relative;
+  }
+}
 @media screen and (max-width: $vw-tablette) {
   .a-propos {
     grid-template-columns: 1fr;

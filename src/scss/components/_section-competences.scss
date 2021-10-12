@@ -184,6 +184,39 @@
     }
   }
 }
+@media screen and (max-width: $vw-tablette2) {
+  .competences {
+    font-size: $fz-normal;
+  }
+  .comp-1 {
+    width: 500px;
+
+    p {
+      margin: 0 10px;
+    }
+  }
+  .comp-2 {
+    width: 500px;
+
+    p {
+      margin: 0 10px;
+    }
+  }
+  .comp-3 {
+    width: 500px;
+
+    p {
+      margin: 0 10px;
+    }
+  }
+  .comp-4 {
+    width: 500px;
+
+    p {
+      margin: 0 10px;
+    }
+  }
+}
 @media screen and (max-width: $vw-tablette) {
   .competences {
     width: 100vw;
