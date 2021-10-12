@@ -151,7 +151,39 @@
     background-image: url("../../images/touchdesigner.png");
   }
 }
+@media screen and (max-width: $vw-laptop) {
+  .competences {
+    font-size: $fz-normal;
+  }
+  .comp-1 {
+    width: 500px;
 
+    p {
+      margin: 0 10px;
+    }
+  }
+  .comp-2 {
+    width: 500px;
+
+    p {
+      margin: 0 10px;
+    }
+  }
+  .comp-3 {
+    width: 500px;
+
+    p {
+      margin: 0 10px;
+    }
+  }
+  .comp-4 {
+    width: 500px;
+
+    p {
+      margin: 0 10px;
+    }
+  }
+}
 @media screen and (max-width: $vw-tablette) {
   .competences {
     width: 100vw;
@@ -382,7 +414,7 @@
     p {
       font-size: 12px;
       height: 50px;
-      width: 200px;
+      width: 185px;
       text-align: right;
     }
   }

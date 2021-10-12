@@ -70,7 +70,26 @@
   margin: 20px;
   background: url("../../images/jeux-videos.png") no-repeat;
 }
+@media screen and (max-width: $vw-laptop) {
+  .interet-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr auto 1fr 50px;
+    grid-template-rows: 1fr;
+    gap: 0 0;
+  }
 
+  .texte-interet {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+
+    p {
+      height: 125px;
+      width: 50vw;
+      margin: 15% 0 0 0;
+    }
+  }
+}
 @media screen and (max-width: $vw-tablette) {
   .interets h1 {
     margin: 20px 0;
