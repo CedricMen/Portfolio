@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="488b3d94-5b6c-4888-97ec-0daeb4388ee4" name="Changes" comment="Fix padding a-propos mobile">
+    <list default="true" id="488b3d94-5b6c-4888-97ec-0daeb4388ee4" name="Changes" comment="Mail to + index + 4 sec carrousel + Lien site eCommerce externe + add sketchfab">
+      <change afterPath="$PROJECT_DIR$/src/images/projection-scene.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a-propos.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/a-propos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/course-lumiere.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/course-lumiere.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_section-a-propos.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-a-propos.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_section-competences.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-competences.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_section-hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-hero.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_section-interets.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-interets.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/mockup-projet-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/mockup-projet-4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/mockup-projet-5.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/mockup-projet-5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/projection-scene.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projection-mapping.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/projection-mapping.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/components/_section-single.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-single.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/settings/_dimensions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/settings/_dimensions.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_section-singles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-singles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/singles.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/singles.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/site-ecommerce.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/site-ecommerce.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +86,7 @@
       <workItem from="1633535956292" duration="1129000" />
       <workItem from="1633537214194" duration="313000" />
       <workItem from="1633965456364" duration="5885000" />
-      <workItem from="1634061526730" duration="952000" />
+      <workItem from="1634061526730" duration="4127000" />
     </task>
     <task id="LOCAL-00001" summary="change gitignore">
       <created>1633445175612</created>
@@ -117,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633537085852</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Mail to + index + 4 sec carrousel + Lien site eCommerce externe + add sketchfab">
+      <created>1634062612809</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1634062612809</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +146,7 @@
     <MESSAGE value="idea" />
     <MESSAGE value="responsive fix single et index + responsive tablet 3/4" />
     <MESSAGE value="Fix padding a-propos mobile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix padding a-propos mobile" />
+    <MESSAGE value="Mail to + index + 4 sec carrousel + Lien site eCommerce externe + add sketchfab" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mail to + index + 4 sec carrousel + Lien site eCommerce externe + add sketchfab" />
   </component>
 </project>

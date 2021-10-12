@@ -171,7 +171,30 @@
   justify-content: right;
 }
 
+@media screen and (max-width: $vw-laptop) {
+  .projets {
+    grid-template-columns: 20px 1fr 20px;
+  }
+  .projets a img {
+    width: 75%;
+    height: auto;
+    margin: 20px;
+    transition: all .2s ease-in-out;
+  }
+  .bulle {
+    height: 345px;
+    width: 345px;
+    margin: 0;
+    border-radius: 50%;
+    h2{
+      font-size: $fz-h3;
+    }
 
+    p {
+      font-size: 14px;
+    }
+  }
+}
 @media screen and (max-width: $vw-tablette) {
   .projets {
     display: grid;
