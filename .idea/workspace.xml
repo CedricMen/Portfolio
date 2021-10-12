@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="488b3d94-5b6c-4888-97ec-0daeb4388ee4" name="Changes" comment="responsive 1366">
+    <list default="true" id="488b3d94-5b6c-4888-97ec-0daeb4388ee4" name="Changes" comment="responsive 375">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_section-a-propos.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-a-propos.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_section-contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-contact.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_section-singles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-singles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_header-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_header-page.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +78,7 @@
       <workItem from="1633535956292" duration="1129000" />
       <workItem from="1633537214194" duration="313000" />
       <workItem from="1633965456364" duration="5885000" />
-      <workItem from="1634061526730" duration="6916000" />
+      <workItem from="1634061526730" duration="7560000" />
     </task>
     <task id="LOCAL-00001" summary="change gitignore">
       <created>1633445175612</created>
@@ -125,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634066749339</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="responsive 375">
+      <created>1634071921131</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1634071921131</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +154,7 @@
     <MESSAGE value="Fix padding a-propos mobile" />
     <MESSAGE value="Mail to + index + 4 sec carrousel + Lien site eCommerce externe + add sketchfab" />
     <MESSAGE value="responsive 1366" />
-    <option name="LAST_COMMIT_MESSAGE" value="responsive 1366" />
+    <MESSAGE value="responsive 375" />
+    <option name="LAST_COMMIT_MESSAGE" value="responsive 375" />
   </component>
 </project>
