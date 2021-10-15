@@ -1,6 +1,6 @@
 /* ------------ a-propos ------------ */
 .a-propos {
-  height: 65vh;
+  height: 100%;
   width: 100vw;
   display: grid;
   grid-template-columns: 100px 700px auto 700px 100px;
@@ -193,7 +193,7 @@
     font-size: $fz-normal;
   }
   .a-propos {
-    height: 65vh;
+    height: 100%;
     width: 100vw;
     display: grid;
     grid-template-columns: 50px 600px auto 600px 50px;
@@ -223,7 +223,7 @@
     font-size: $fz-normal;
   }
   .a-propos {
-    height: 65vh;
+    height: 100%;
     width: 100vw;
     display: grid;
     grid-template-columns: 50px 600px auto 600px 50px;
@@ -249,7 +249,7 @@
   .a-propos {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
-    height: 100vh;
+    height: 100%;
   }
   .a-propos-sideA {
     grid-column-start: 1;
