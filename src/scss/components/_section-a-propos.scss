@@ -356,7 +356,7 @@
   .a-propos {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
-    height: 100vh;
+    height: 100%;
   }
   .a-propos-sideA {
     grid-column-start: 1;
@@ -377,7 +377,7 @@
 
   }
   .texte-propos {
-    width: 100vw;
+    width: 100%;
     height: 400px;
     padding: 0 10px;
     font-size: $fz-normal;

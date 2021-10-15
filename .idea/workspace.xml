@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="488b3d94-5b6c-4888-97ec-0daeb4388ee4" name="Changes" comment="fix hero banderolle">
+    <list default="true" id="488b3d94-5b6c-4888-97ec-0daeb4388ee4" name="Changes" comment="fix hero banderolle fin">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/course-lumiere.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/course-lumiere.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projection-mapping.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/projection-mapping.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/refonte-site.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/refonte-site.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_header-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_header-page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_section-a-propos.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-a-propos.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_section-competences.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-competences.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/components/_section-hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-hero.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_section-interets.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-interets.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_section-single.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-single.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/site-ecommerce.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/site-ecommerce.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +88,8 @@
       <workItem from="1633535956292" duration="1129000" />
       <workItem from="1633537214194" duration="313000" />
       <workItem from="1633965456364" duration="5885000" />
-      <workItem from="1634061526730" duration="10262000" />
+      <workItem from="1634061526730" duration="10402000" />
+      <workItem from="1634309681807" duration="3920000" />
     </task>
     <task id="LOCAL-00001" summary="change gitignore">
       <created>1633445175612</created>
@@ -150,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634074887430</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="fix hero banderolle fin">
+      <created>1634075311268</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1634075311268</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +197,7 @@
     <MESSAGE value="responsive 375 fix sidenav + taille font" />
     <MESSAGE value="responsive 1440px" />
     <MESSAGE value="fix hero banderolle" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix hero banderolle" />
+    <MESSAGE value="fix hero banderolle fin" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix hero banderolle fin" />
   </component>
 </project>

@@ -175,6 +175,9 @@
 }
 
 @media screen and (max-width: $vw-mobile) {
+  .interets{
+    height: 100%;
+  }
   .interets h1 {
     margin: 20px 0;
     font-size: $fz-h2;

@@ -85,4 +85,17 @@
     top: 50%;
     transform: translate(-50%, -50%);
   }
+  .banderolle{
+    position: absolute;
+    width: 100vw;
+    height: 300px;
+    left: 0;
+    top: 25%;
+
+    background: rgba(131, 92, 237, 0.45);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
