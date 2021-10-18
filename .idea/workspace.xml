@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="488b3d94-5b6c-4888-97ec-0daeb4388ee4" name="Changes" comment="Responsive 375 fin et ajustements divers dans single et a-propos et banderole">
+    <list default="true" id="488b3d94-5b6c-4888-97ec-0daeb4388ee4" name="Changes" comment="1366 responsive fix height a-porpos et contact">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_section-a-propos.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-a-propos.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_section-contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-contact.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_section-single.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-single.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +80,9 @@
       <workItem from="1633965456364" duration="5885000" />
       <workItem from="1634061526730" duration="10402000" />
       <workItem from="1634309681807" duration="4199000" />
-      <workItem from="1634315332057" duration="300000" />
+      <workItem from="1634315332057" duration="963000" />
+      <workItem from="1634317163129" duration="912000" />
+      <workItem from="1634568619183" duration="750000" />
     </task>
     <task id="LOCAL-00001" summary="change gitignore">
       <created>1633445175612</created>
@@ -167,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634314902392</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="1366 responsive fix height a-porpos et contact">
+      <created>1634315701298</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1634315701298</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +206,7 @@
     <MESSAGE value="fix hero banderolle" />
     <MESSAGE value="fix hero banderolle fin" />
     <MESSAGE value="Responsive 375 fin et ajustements divers dans single et a-propos et banderole" />
-    <option name="LAST_COMMIT_MESSAGE" value="Responsive 375 fin et ajustements divers dans single et a-propos et banderole" />
+    <MESSAGE value="1366 responsive fix height a-porpos et contact" />
+    <option name="LAST_COMMIT_MESSAGE" value="1366 responsive fix height a-porpos et contact" />
   </component>
 </project>
