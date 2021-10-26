@@ -147,7 +147,15 @@ button {
   background: $jaune-main;
 }
 
-
+@media screen and (max-width: $vw-tablette2) {
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  .cursor {
+    display: none;
+  }
+}
 @media screen and (max-width: $vw-tablette) {
   body {
     width: 100%;
@@ -162,5 +170,35 @@ button {
   body {
     width: 100%;
     height: 100%;
+  }
+  .loader {
+    position: fixed;
+    top: 0;
+    left: 1/2;
+    z-index: 200;
+
+    background: $jaune-main;
+    width: 100vw;
+    height: 100vh;
+
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    img {
+      width: 64px;
+      height: auto;
+      position: absolute;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .fondu-out {
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+    display: none;
   }
 }
