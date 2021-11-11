@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="488b3d94-5b6c-4888-97ec-0daeb4388ee4" name="Changes" comment="fix loading mobile et fix emplacement texte-bulle">
+    <list default="true" id="488b3d94-5b6c-4888-97ec-0daeb4388ee4" name="Changes" comment="ajout fix erreur 404">
+      <change afterPath="$PROJECT_DIR$/src/images/icon-site.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a-propos.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/a-propos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/course-lumiere.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/course-lumiere.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projection-mapping.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/projection-mapping.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/refonte-site.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/refonte-site.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_section-404.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-404.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/singles.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/singles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/site-ecommerce.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/site-ecommerce.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verum.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/verum.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +95,8 @@
       <workItem from="1634317163129" duration="912000" />
       <workItem from="1634568619183" duration="1461000" />
       <workItem from="1635264924713" duration="3303000" />
-      <workItem from="1635523812803" duration="1826000" />
+      <workItem from="1635523812803" duration="1997000" />
+      <workItem from="1636592564555" duration="525000" />
     </task>
     <task id="LOCAL-00001" summary="change gitignore">
       <created>1633445175612</created>
@@ -200,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635271871424</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="ajout fix erreur 404">
+      <created>1635525856567</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1635525856568</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,6 +251,7 @@
     <MESSAGE value="1366 responsive fix height a-porpos et contact" />
     <MESSAGE value="fix slider height , ajout video quad hd" />
     <MESSAGE value="fix loading mobile et fix emplacement texte-bulle" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix loading mobile et fix emplacement texte-bulle" />
+    <MESSAGE value="ajout fix erreur 404" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout fix erreur 404" />
   </component>
 </project>
