@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="488b3d94-5b6c-4888-97ec-0daeb4388ee4" name="Changes" comment="ajout fix erreur 404">
-      <change afterPath="$PROJECT_DIR$/src/images/icon-site.png" afterDir="false" />
+    <list default="true" id="b253750d-4cff-4a22-b84e-242b79cbf602" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/disco-chef-tv.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/brochette-rendu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/burger-rendu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/croque_monsieur.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/fromage-avec-nrml-rendu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/jeu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/laitue-rendu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/mockup-projet-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pain-rendu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/rendu-fromage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/rendu-tomate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/salade.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/steak-cuit-rendu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/unity-icone.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a-propos.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/a-propos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/course-lumiere.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/course-lumiere.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projection-mapping.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/projection-mapping.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/refonte-site.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/refonte-site.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_section-single.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-single.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_section-singles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-singles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/singles.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/singles.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site-ecommerce.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/site-ecommerce.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/verum.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/verum.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,41 +30,27 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
-  </component>
-  <component name="ProjectId" id="1z5jF6YXR1WzqTdAIHzWnSV63Fv" />
+  <component name="ProjectId" id="21VacnbW7MByCBoyBjzAa4si8Hb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\cedri\Desktop\Portfolio\src" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration default="true" type="js.build_tools.gulp">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method v="2" />
-    </configuration>
     <configuration name="default" type="js.build_tools.gulp" temporary="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -79,145 +71,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="488b3d94-5b6c-4888-97ec-0daeb4388ee4" name="Changes" comment="" />
-      <created>1633444752108</created>
+      <changelist id="b253750d-4cff-4a22-b84e-242b79cbf602" name="Changes" comment="" />
+      <created>1638028802553</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1633444752108</updated>
-      <workItem from="1633444825782" duration="36226000" />
-      <workItem from="1633528034272" duration="6771000" />
-      <workItem from="1633535956292" duration="1129000" />
-      <workItem from="1633537214194" duration="313000" />
-      <workItem from="1633965456364" duration="5885000" />
-      <workItem from="1634061526730" duration="10402000" />
-      <workItem from="1634309681807" duration="4199000" />
-      <workItem from="1634315332057" duration="963000" />
-      <workItem from="1634317163129" duration="912000" />
-      <workItem from="1634568619183" duration="1461000" />
-      <workItem from="1635264924713" duration="3303000" />
-      <workItem from="1635523812803" duration="1997000" />
-      <workItem from="1636592564555" duration="525000" />
+      <updated>1638028802553</updated>
+      <workItem from="1638028851178" duration="9928000" />
     </task>
-    <task id="LOCAL-00001" summary="change gitignore">
-      <created>1633445175612</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1633445175612</updated>
-    </task>
-    <task id="LOCAL-00002" summary="idea">
-      <created>1633445432801</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1633445432801</updated>
-    </task>
-    <task id="LOCAL-00003" summary="responsive fix single et index + responsive tablet 3/4">
-      <created>1633534365065</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1633534365065</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Fix padding a-propos mobile">
-      <created>1633537085852</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1633537085852</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Mail to + index + 4 sec carrousel + Lien site eCommerce externe + add sketchfab">
-      <created>1634062612809</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1634062612809</updated>
-    </task>
-    <task id="LOCAL-00006" summary="responsive 1366">
-      <created>1634066749339</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1634066749339</updated>
-    </task>
-    <task id="LOCAL-00007" summary="responsive 375">
-      <created>1634071921131</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1634071921131</updated>
-    </task>
-    <task id="LOCAL-00008" summary="responsive 375 fix sidenav + taille font">
-      <created>1634072639269</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1634072639269</updated>
-    </task>
-    <task id="LOCAL-00009" summary="responsive 1440px">
-      <created>1634073538021</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1634073538021</updated>
-    </task>
-    <task id="LOCAL-00010" summary="fix hero banderolle">
-      <created>1634074887430</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1634074887430</updated>
-    </task>
-    <task id="LOCAL-00011" summary="fix hero banderolle fin">
-      <created>1634075311268</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1634075311268</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Responsive 375 fin et ajustements divers dans single et a-propos et banderole">
-      <created>1634314902392</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1634314902392</updated>
-    </task>
-    <task id="LOCAL-00013" summary="1366 responsive fix height a-porpos et contact">
-      <created>1634315701298</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1634315701298</updated>
-    </task>
-    <task id="LOCAL-00014" summary="fix slider height , ajout video quad hd">
-      <created>1634577631958</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1634577631958</updated>
-    </task>
-    <task id="LOCAL-00015" summary="fix slider height , ajout video quad hd">
-      <created>1634577637911</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1634577637911</updated>
-    </task>
-    <task id="LOCAL-00016" summary="fix loading mobile et fix emplacement texte-bulle">
-      <created>1635271871424</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1635271871424</updated>
-    </task>
-    <task id="LOCAL-00017" summary="ajout fix erreur 404">
-      <created>1635525856567</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1635525856568</updated>
-    </task>
-    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,25 +93,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="change gitignore" />
-    <MESSAGE value="idea" />
-    <MESSAGE value="responsive fix single et index + responsive tablet 3/4" />
-    <MESSAGE value="Fix padding a-propos mobile" />
-    <MESSAGE value="Mail to + index + 4 sec carrousel + Lien site eCommerce externe + add sketchfab" />
-    <MESSAGE value="responsive 1366" />
-    <MESSAGE value="responsive 375" />
-    <MESSAGE value="responsive 375 fix sidenav + taille font" />
-    <MESSAGE value="responsive 1440px" />
-    <MESSAGE value="fix hero banderolle" />
-    <MESSAGE value="fix hero banderolle fin" />
-    <MESSAGE value="Responsive 375 fin et ajustements divers dans single et a-propos et banderole" />
-    <MESSAGE value="1366 responsive fix height a-porpos et contact" />
-    <MESSAGE value="fix slider height , ajout video quad hd" />
-    <MESSAGE value="fix loading mobile et fix emplacement texte-bulle" />
-    <MESSAGE value="ajout fix erreur 404" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout fix erreur 404" />
   </component>
 </project>

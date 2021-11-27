@@ -66,7 +66,7 @@
 .projets {
   display: grid;
   grid-template-columns: 100px 1fr 100px;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   gap: 0 0;
 
   margin-bottom: 50px;
@@ -173,6 +173,24 @@
   justify-content: right;
 }
 
+.projet-f {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 6;
+  grid-row-end: 7;
+
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.projet-f a {
+  display: flex;
+  justify-content: left;
+}
+
 @media screen and (max-width: $vw-laptop) {
   .projets {
     grid-template-columns: 20px 1fr 20px;
@@ -225,7 +243,7 @@
   .projets {
     display: grid;
     grid-template-columns: 5px 1fr 5px;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 0 0;
 
   }
@@ -258,7 +276,7 @@
   .projets {
     display: grid;
     grid-template-columns: 5px 1fr 5px;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 0 0;
 
   }

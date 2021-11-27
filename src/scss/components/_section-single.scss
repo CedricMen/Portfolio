@@ -118,6 +118,18 @@
   height: 100%;
   width: 75vw;
 }
+.burger-3d-sketchfab{
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  margin: 0 0 5% 0;
+}
+.sketchfab-embed-wrapper iframe{
+  justify-content: center;
+  height: 75vh;
+  width: 75vw;
+}
 
 .single-voir-site{
   width: 100vw;
@@ -282,7 +294,6 @@
       display: flex;
       flex-direction: row;
       align-items: center;
-
     }
 
     .une-competence {
@@ -582,6 +593,9 @@
   }
   .image-ecommerce{
     height: 20vh;
+  }
+  .sketchfab-embed-wrapper iframe{
+    height: 50vh;
   }
 
 
