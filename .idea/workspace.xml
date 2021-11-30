@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b253750d-4cff-4a22-b84e-242b79cbf602" name="Changes" comment="Ajout images modelisation et texturisation">
+    <list default="true" id="b253750d-4cff-4a22-b84e-242b79cbf602" name="Changes" comment="correction titre discoChefTV et fix voir site ecommerce">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/disco-chef-tv.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/disco-chef-tv.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_section-single.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-single.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/contact.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +24,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -72,7 +70,8 @@
       <updated>1638028802553</updated>
       <workItem from="1638028851178" duration="9998000" />
       <workItem from="1638116646855" duration="277000" />
-      <workItem from="1638117123573" duration="1409000" />
+      <workItem from="1638117123573" duration="1686000" />
+      <workItem from="1638285198005" duration="1266000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout projet discoChefTV">
       <created>1638042851618</created>
@@ -88,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638042893078</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="correction titre discoChefTV et fix voir site ecommerce">
+      <created>1638118604703</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1638118604703</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +115,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ajout projet discoChefTV" />
     <MESSAGE value="Ajout images modelisation et texturisation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout images modelisation et texturisation" />
+    <MESSAGE value="correction titre discoChefTV et fix voir site ecommerce" />
+    <option name="LAST_COMMIT_MESSAGE" value="correction titre discoChefTV et fix voir site ecommerce" />
   </component>
 </project>
